@@ -1,0 +1,601 @@
+﻿product_id,nombre,categoria,unidad,fecha_venta,anio,mes,dia_del_mes,dia_semana,nombre_dia,semana_iso,semana_del_periodo,es_fin_de_semana,es_feriado,tipo_dia,ventas_dia_anterior,ventas_hace_7_dias,promedio_movil_7d,cantidad_vendida,stock_en_momento,stock_actual,dias_para_expirar
+P0001,Arroz blanco,Alimentos,kg,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,233,684,684,261
+P0001,Arroz blanco,Alimentos,kg,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,233.0,,233.0,133,451,684,260
+P0001,Arroz blanco,Alimentos,kg,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,133.0,,183.0,119,318,684,259
+P0001,Arroz blanco,Alimentos,kg,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,119.0,,161.66666666666666,85,708,684,258
+P0001,Arroz blanco,Alimentos,kg,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,85.0,,142.5,87,623,684,257
+P0001,Arroz blanco,Alimentos,kg,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,87.0,,131.4,111,536,684,256
+P0001,Arroz blanco,Alimentos,kg,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,111.0,,128.0,128,425,684,255
+P0001,Arroz blanco,Alimentos,kg,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,128.0,233.0,128.0,171,769,684,254
+P0001,Arroz blanco,Alimentos,kg,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,171.0,133.0,119.14285714285714,139,598,684,253
+P0001,Arroz blanco,Alimentos,kg,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,139.0,119.0,120.0,123,459,684,252
+P0001,Arroz blanco,Alimentos,kg,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,123.0,85.0,120.57142857142857,116,336,684,251
+P0001,Arroz blanco,Alimentos,kg,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,116.0,87.0,125.0,114,778,684,250
+P0001,Arroz blanco,Alimentos,kg,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,114.0,111.0,128.85714285714286,117,664,684,249
+P0001,Arroz blanco,Alimentos,kg,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,117.0,128.0,129.71428571428572,124,547,684,248
+P0001,Arroz blanco,Alimentos,kg,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,124.0,171.0,129.14285714285714,181,423,684,247
+P0001,Arroz blanco,Alimentos,kg,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,181.0,139.0,130.57142857142858,140,764,684,246
+P0001,Arroz blanco,Alimentos,kg,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,140.0,123.0,130.71428571428572,126,624,684,245
+P0001,Arroz blanco,Alimentos,kg,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,126.0,116.0,131.14285714285714,110,498,684,244
+P0001,Arroz blanco,Alimentos,kg,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,110.0,114.0,130.28571428571428,103,388,684,243
+P0001,Arroz blanco,Alimentos,kg,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,103.0,117.0,128.71428571428572,128,770,684,242
+P0001,Arroz blanco,Alimentos,kg,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,128.0,124.0,130.28571428571428,136,642,684,241
+P0001,Arroz blanco,Alimentos,kg,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,136.0,181.0,132.0,170,506,684,240
+P0001,Arroz blanco,Alimentos,kg,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,170.0,140.0,130.42857142857142,152,336,684,239
+P0001,Arroz blanco,Alimentos,kg,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,152.0,126.0,132.14285714285714,124,735,684,238
+P0001,Arroz blanco,Alimentos,kg,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,124.0,110.0,131.85714285714286,116,611,684,237
+P0001,Arroz blanco,Alimentos,kg,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,116.0,103.0,132.71428571428572,111,495,684,236
+P0001,Arroz blanco,Alimentos,kg,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,111.0,128.0,133.85714285714286,122,384,684,235
+P0001,Arroz blanco,Alimentos,kg,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,122.0,136.0,133.0,135,792,684,234
+P0001,Arroz blanco,Alimentos,kg,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,135.0,170.0,132.85714285714286,172,657,684,233
+P0001,Arroz blanco,Alimentos,kg,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,172.0,152.0,133.14285714285714,148,485,684,232
+P0001,Arroz blanco,Alimentos,kg,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,148.0,124.0,132.57142857142858,128,337,684,231
+P0001,Arroz blanco,Alimentos,kg,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,128.0,116.0,133.14285714285714,127,774,684,230
+P0001,Arroz blanco,Alimentos,kg,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,127.0,111.0,134.71428571428572,107,647,684,229
+P0001,Arroz blanco,Alimentos,kg,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,107.0,122.0,134.14285714285714,109,540,684,228
+P0001,Arroz blanco,Alimentos,kg,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,109.0,135.0,132.28571428571428,132,431,684,227
+P0001,Arroz blanco,Alimentos,kg,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,132.0,172.0,131.85714285714286,199,756,684,226
+P0001,Arroz blanco,Alimentos,kg,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,199.0,148.0,135.71428571428572,173,557,684,225
+P0001,Arroz blanco,Alimentos,kg,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,173.0,128.0,139.28571428571428,114,384,684,224
+P0001,Arroz blanco,Alimentos,kg,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,114.0,127.0,137.28571428571428,119,766,684,223
+P0001,Arroz blanco,Alimentos,kg,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,119.0,107.0,136.14285714285714,112,647,684,222
+P0001,Arroz blanco,Alimentos,kg,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,112.0,109.0,136.85714285714286,124,535,684,221
+P0001,Arroz blanco,Alimentos,kg,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,124.0,132.0,139.0,159,411,684,220
+P0001,Arroz blanco,Alimentos,kg,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,159.0,199.0,142.85714285714286,201,763,684,219
+P0001,Arroz blanco,Alimentos,kg,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,201.0,173.0,143.14285714285714,168,562,684,218
+P0001,Arroz blanco,Alimentos,kg,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,168.0,114.0,142.42857142857142,128,394,684,217
+P0001,Arroz blanco,Alimentos,kg,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,128.0,119.0,144.42857142857142,126,713,684,216
+P0001,Arroz blanco,Alimentos,kg,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,126.0,112.0,145.42857142857142,96,587,684,215
+P0001,Arroz blanco,Alimentos,kg,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,96.0,124.0,143.14285714285714,119,491,684,214
+P0001,Arroz blanco,Alimentos,kg,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,119.0,159.0,142.42857142857142,142,372,684,213
+P0001,Arroz blanco,Alimentos,kg,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,142.0,201.0,140.0,187,750,684,212
+P0001,Arroz blanco,Alimentos,kg,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,187.0,168.0,138.0,195,563,684,211
+P0001,Arroz blanco,Alimentos,kg,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,195.0,128.0,141.85714285714286,116,368,684,210
+P0001,Arroz blanco,Alimentos,kg,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,116.0,126.0,140.14285714285714,133,756,684,209
+P0001,Arroz blanco,Alimentos,kg,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,133.0,96.0,141.14285714285714,96,623,684,208
+P0001,Arroz blanco,Alimentos,kg,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,96.0,119.0,141.14285714285714,121,527,684,207
+P0001,Arroz blanco,Alimentos,kg,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,121.0,142.0,141.42857142857142,154,406,684,206
+P0001,Arroz blanco,Alimentos,kg,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,154.0,187.0,143.14285714285714,209,756,684,205
+P0001,Arroz blanco,Alimentos,kg,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,209.0,195.0,146.28571428571428,187,547,684,204
+P0001,Arroz blanco,Alimentos,kg,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,187.0,116.0,145.14285714285714,168,360,684,203
+P0001,Arroz blanco,Alimentos,kg,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,168.0,133.0,152.57142857142858,159,755,684,202
+P0002,Leche entera,Alimentos,litro,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,264,665,665,306
+P0002,Leche entera,Alimentos,litro,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,264.0,,264.0,157,401,665,305
+P0002,Leche entera,Alimentos,litro,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,157.0,,210.5,111,799,665,304
+P0002,Leche entera,Alimentos,litro,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,111.0,,177.33333333333334,108,688,665,303
+P0002,Leche entera,Alimentos,litro,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,108.0,,160.0,119,580,665,302
+P0002,Leche entera,Alimentos,litro,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,119.0,,151.8,125,461,665,301
+P0002,Leche entera,Alimentos,litro,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,125.0,,147.33333333333334,159,336,665,300
+P0002,Leche entera,Alimentos,litro,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,159.0,264.0,149.0,176,785,665,299
+P0002,Leche entera,Alimentos,litro,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,176.0,157.0,136.42857142857142,165,609,665,298
+P0002,Leche entera,Alimentos,litro,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,165.0,111.0,137.57142857142858,135,444,665,297
+P0002,Leche entera,Alimentos,litro,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,135.0,108.0,141.0,118,309,665,296
+P0002,Leche entera,Alimentos,litro,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,118.0,119.0,142.42857142857142,108,741,665,295
+P0002,Leche entera,Alimentos,litro,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,108.0,125.0,140.85714285714286,121,633,665,294
+P0002,Leche entera,Alimentos,litro,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,121.0,159.0,140.28571428571428,146,512,665,293
+P0002,Leche entera,Alimentos,litro,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,146.0,176.0,138.42857142857142,165,366,665,292
+P0002,Leche entera,Alimentos,litro,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,165.0,165.0,136.85714285714286,174,781,665,291
+P0002,Leche entera,Alimentos,litro,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,174.0,135.0,138.14285714285714,124,607,665,290
+P0002,Leche entera,Alimentos,litro,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,124.0,118.0,136.57142857142858,124,483,665,289
+P0002,Leche entera,Alimentos,litro,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,124.0,108.0,137.42857142857142,123,359,665,288
+P0002,Leche entera,Alimentos,litro,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,123.0,121.0,139.57142857142858,137,749,665,287
+P0002,Leche entera,Alimentos,litro,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,137.0,146.0,141.85714285714286,154,612,665,286
+P0002,Leche entera,Alimentos,litro,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,154.0,165.0,143.0,183,458,665,285
+P0002,Leche entera,Alimentos,litro,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,183.0,174.0,145.57142857142858,168,769,665,284
+P0002,Leche entera,Alimentos,litro,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,168.0,124.0,144.71428571428572,110,601,665,283
+P0002,Leche entera,Alimentos,litro,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,110.0,124.0,142.71428571428572,108,491,665,282
+P0002,Leche entera,Alimentos,litro,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,108.0,123.0,140.42857142857142,104,383,665,281
+P0002,Leche entera,Alimentos,litro,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,104.0,137.0,137.71428571428572,136,733,665,280
+P0002,Leche entera,Alimentos,litro,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,136.0,154.0,137.57142857142858,144,597,665,279
+P0002,Leche entera,Alimentos,litro,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,144.0,183.0,136.14285714285714,187,453,665,278
+P0002,Leche entera,Alimentos,litro,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,187.0,168.0,136.71428571428572,195,796,665,277
+P0002,Leche entera,Alimentos,litro,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,195.0,110.0,140.57142857142858,130,601,665,276
+P0002,Leche entera,Alimentos,litro,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,130.0,108.0,143.42857142857142,138,471,665,275
+P0002,Leche entera,Alimentos,litro,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,138.0,104.0,147.71428571428572,111,333,665,274
+P0002,Leche entera,Alimentos,litro,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,111.0,136.0,148.71428571428572,121,773,665,273
+P0002,Leche entera,Alimentos,litro,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,121.0,144.0,146.57142857142858,156,652,665,272
+P0002,Leche entera,Alimentos,litro,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,156.0,187.0,148.28571428571428,215,496,665,271
+P0002,Leche entera,Alimentos,litro,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,215.0,195.0,152.28571428571428,146,727,665,270
+P0002,Leche entera,Alimentos,litro,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,146.0,130.0,145.28571428571428,144,581,665,269
+P0002,Leche entera,Alimentos,litro,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,144.0,138.0,147.28571428571428,134,437,665,268
+P0002,Leche entera,Alimentos,litro,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,134.0,111.0,146.71428571428572,117,303,665,267
+P0002,Leche entera,Alimentos,litro,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,117.0,121.0,147.57142857142858,137,746,665,266
+P0002,Leche entera,Alimentos,litro,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,137.0,156.0,149.85714285714286,156,609,665,265
+P0002,Leche entera,Alimentos,litro,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,156.0,215.0,149.85714285714286,207,453,665,264
+P0002,Leche entera,Alimentos,litro,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,207.0,146.0,148.71428571428572,180,785,665,263
+P0002,Leche entera,Alimentos,litro,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,180.0,144.0,153.57142857142858,163,605,665,262
+P0002,Leche entera,Alimentos,litro,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,163.0,134.0,156.28571428571428,130,442,665,261
+P0002,Leche entera,Alimentos,litro,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,130.0,117.0,155.71428571428572,114,312,665,260
+P0002,Leche entera,Alimentos,litro,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,114.0,137.0,155.28571428571428,142,775,665,259
+P0002,Leche entera,Alimentos,litro,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,142.0,156.0,156.0,190,633,665,258
+P0002,Leche entera,Alimentos,litro,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,190.0,207.0,160.85714285714286,223,443,665,257
+P0002,Leche entera,Alimentos,litro,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,223.0,180.0,163.14285714285714,189,741,665,256
+P0002,Leche entera,Alimentos,litro,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,189.0,163.0,164.42857142857142,164,552,665,255
+P0002,Leche entera,Alimentos,litro,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,164.0,130.0,164.57142857142858,120,388,665,254
+P0002,Leche entera,Alimentos,litro,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,120.0,114.0,163.14285714285714,117,779,665,253
+P0002,Leche entera,Alimentos,litro,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,117.0,142.0,163.57142857142858,136,662,665,252
+P0002,Leche entera,Alimentos,litro,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,136.0,190.0,162.71428571428572,147,526,665,251
+P0002,Leche entera,Alimentos,litro,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,147.0,223.0,156.57142857142858,223,379,665,250
+P0002,Leche entera,Alimentos,litro,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,223.0,189.0,156.57142857142858,182,717,665,249
+P0002,Leche entera,Alimentos,litro,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,182.0,164.0,155.57142857142858,167,535,665,248
+P0002,Leche entera,Alimentos,litro,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,167.0,120.0,156.0,168,368,665,247
+P0003,Pan de molde,Alimentos,unidad,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,323,780,780,378
+P0003,Pan de molde,Alimentos,unidad,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,323.0,,323.0,235,457,780,377
+P0003,Pan de molde,Alimentos,unidad,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,235.0,,279.0,173,778,780,376
+P0003,Pan de molde,Alimentos,unidad,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,173.0,,243.66666666666666,133,605,780,375
+P0003,Pan de molde,Alimentos,unidad,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,133.0,,216.0,109,472,780,374
+P0003,Pan de molde,Alimentos,unidad,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,109.0,,194.6,104,363,780,373
+P0003,Pan de molde,Alimentos,unidad,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,104.0,,179.5,147,780,780,372
+P0003,Pan de molde,Alimentos,unidad,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,147.0,323.0,174.85714285714286,216,633,780,371
+P0003,Pan de molde,Alimentos,unidad,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,216.0,235.0,159.57142857142858,188,417,780,370
+P0003,Pan de molde,Alimentos,unidad,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,188.0,173.0,152.85714285714286,135,726,780,369
+P0003,Pan de molde,Alimentos,unidad,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,135.0,133.0,147.42857142857142,144,591,780,368
+P0003,Pan de molde,Alimentos,unidad,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,144.0,109.0,149.0,126,447,780,367
+P0003,Pan de molde,Alimentos,unidad,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,126.0,104.0,151.42857142857142,121,754,780,366
+P0003,Pan de molde,Alimentos,unidad,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,121.0,147.0,153.85714285714286,136,633,780,365
+P0003,Pan de molde,Alimentos,unidad,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,136.0,216.0,152.28571428571428,219,497,780,364
+P0003,Pan de molde,Alimentos,unidad,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,219.0,188.0,152.71428571428572,203,714,780,363
+P0003,Pan de molde,Alimentos,unidad,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,203.0,135.0,154.85714285714286,164,511,780,362
+P0003,Pan de molde,Alimentos,unidad,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,164.0,144.0,159.0,146,793,780,361
+P0003,Pan de molde,Alimentos,unidad,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,146.0,126.0,159.28571428571428,120,647,780,360
+P0003,Pan de molde,Alimentos,unidad,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,120.0,121.0,158.42857142857142,122,527,780,359
+P0003,Pan de molde,Alimentos,unidad,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,122.0,136.0,158.57142857142858,151,405,780,358
+P0003,Pan de molde,Alimentos,unidad,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,151.0,219.0,160.71428571428572,218,776,780,357
+P0003,Pan de molde,Alimentos,unidad,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,218.0,203.0,160.57142857142858,252,558,780,356
+P0003,Pan de molde,Alimentos,unidad,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,252.0,164.0,167.57142857142858,154,730,780,355
+P0003,Pan de molde,Alimentos,unidad,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,154.0,146.0,166.14285714285714,123,576,780,354
+P0003,Pan de molde,Alimentos,unidad,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,123.0,120.0,162.85714285714286,141,453,780,353
+P0003,Pan de molde,Alimentos,unidad,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,141.0,122.0,165.85714285714286,146,782,780,352
+P0003,Pan de molde,Alimentos,unidad,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,146.0,151.0,169.28571428571428,167,636,780,351
+P0003,Pan de molde,Alimentos,unidad,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,167.0,218.0,171.57142857142858,238,469,780,350
+P0003,Pan de molde,Alimentos,unidad,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,238.0,252.0,174.42857142857142,221,799,780,349
+P0003,Pan de molde,Alimentos,unidad,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,221.0,154.0,170.0,139,578,780,348
+P0003,Pan de molde,Alimentos,unidad,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,139.0,123.0,167.85714285714286,121,439,780,347
+P0003,Pan de molde,Alimentos,unidad,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,121.0,141.0,167.57142857142858,115,793,780,346
+P0003,Pan de molde,Alimentos,unidad,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,115.0,146.0,163.85714285714286,146,678,780,345
+P0003,Pan de molde,Alimentos,unidad,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,146.0,167.0,163.85714285714286,201,532,780,344
+P0003,Pan de molde,Alimentos,unidad,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,201.0,238.0,168.71428571428572,241,784,780,343
+P0003,Pan de molde,Alimentos,unidad,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,241.0,221.0,169.14285714285714,222,543,780,342
+P0003,Pan de molde,Alimentos,unidad,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,222.0,139.0,169.28571428571428,167,789,780,341
+P0003,Pan de molde,Alimentos,unidad,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,167.0,121.0,173.28571428571428,144,622,780,340
+P0003,Pan de molde,Alimentos,unidad,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,144.0,115.0,176.57142857142858,128,478,780,339
+P0003,Pan de molde,Alimentos,unidad,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,128.0,146.0,178.42857142857142,152,741,780,338
+P0003,Pan de molde,Alimentos,unidad,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,152.0,201.0,179.28571428571428,204,589,780,337
+P0003,Pan de molde,Alimentos,unidad,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,204.0,241.0,179.71428571428572,253,385,780,336
+P0003,Pan de molde,Alimentos,unidad,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,253.0,222.0,181.42857142857142,193,737,780,335
+P0003,Pan de molde,Alimentos,unidad,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,193.0,167.0,177.28571428571428,130,544,780,334
+P0003,Pan de molde,Alimentos,unidad,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,130.0,144.0,172.0,167,414,780,333
+P0003,Pan de molde,Alimentos,unidad,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,167.0,128.0,175.28571428571428,134,706,780,332
+P0003,Pan de molde,Alimentos,unidad,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,134.0,152.0,176.14285714285714,143,572,780,331
+P0003,Pan de molde,Alimentos,unidad,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,143.0,204.0,174.85714285714286,206,429,780,330
+P0003,Pan de molde,Alimentos,unidad,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,206.0,253.0,175.14285714285714,225,783,780,329
+P0003,Pan de molde,Alimentos,unidad,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,225.0,193.0,171.14285714285714,204,558,780,328
+P0003,Pan de molde,Alimentos,unidad,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,204.0,130.0,172.71428571428572,163,354,780,327
+P0003,Pan de molde,Alimentos,unidad,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,163.0,167.0,177.42857142857142,146,732,780,326
+P0003,Pan de molde,Alimentos,unidad,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,146.0,134.0,174.42857142857142,137,586,780,325
+P0003,Pan de molde,Alimentos,unidad,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,137.0,143.0,174.85714285714286,157,449,780,324
+P0003,Pan de molde,Alimentos,unidad,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,157.0,206.0,176.85714285714286,209,797,780,323
+P0003,Pan de molde,Alimentos,unidad,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,209.0,225.0,177.28571428571428,260,588,780,322
+P0003,Pan de molde,Alimentos,unidad,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,260.0,204.0,182.28571428571428,181,701,780,321
+P0003,Pan de molde,Alimentos,unidad,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,181.0,163.0,179.0,210,520,780,320
+P0003,Pan de molde,Alimentos,unidad,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,210.0,146.0,185.71428571428572,184,767,780,319
+P0004,Aceite vegetal,Alimentos,litro,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,143,495,495,260
+P0004,Aceite vegetal,Alimentos,litro,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,143.0,,143.0,98,352,495,259
+P0004,Aceite vegetal,Alimentos,litro,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,98.0,,120.5,85,254,495,258
+P0004,Aceite vegetal,Alimentos,litro,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,85.0,,108.66666666666667,73,702,495,257
+P0004,Aceite vegetal,Alimentos,litro,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,73.0,,99.75,80,629,495,256
+P0004,Aceite vegetal,Alimentos,litro,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,80.0,,95.8,83,549,495,255
+P0004,Aceite vegetal,Alimentos,litro,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,83.0,,93.66666666666667,102,466,495,254
+P0004,Aceite vegetal,Alimentos,litro,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,102.0,143.0,94.85714285714286,135,364,495,253
+P0004,Aceite vegetal,Alimentos,litro,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,135.0,98.0,93.71428571428571,115,771,495,252
+P0004,Aceite vegetal,Alimentos,litro,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,115.0,85.0,96.14285714285714,102,656,495,251
+P0004,Aceite vegetal,Alimentos,litro,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,102.0,73.0,98.57142857142857,84,554,495,250
+P0004,Aceite vegetal,Alimentos,litro,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,84.0,80.0,100.14285714285714,76,470,495,249
+P0004,Aceite vegetal,Alimentos,litro,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,76.0,83.0,99.57142857142857,87,394,495,248
+P0004,Aceite vegetal,Alimentos,litro,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,87.0,102.0,100.14285714285714,110,307,495,247
+P0004,Aceite vegetal,Alimentos,litro,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,110.0,135.0,101.28571428571429,112,714,495,246
+P0004,Aceite vegetal,Alimentos,litro,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,112.0,115.0,98.0,112,602,495,245
+P0004,Aceite vegetal,Alimentos,litro,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,112.0,102.0,97.57142857142857,94,490,495,244
+P0004,Aceite vegetal,Alimentos,litro,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,94.0,84.0,96.42857142857143,109,396,495,243
+P0004,Aceite vegetal,Alimentos,litro,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,109.0,76.0,100.0,98,287,495,242
+P0004,Aceite vegetal,Alimentos,litro,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,98.0,87.0,103.14285714285714,83,763,495,241
+P0004,Aceite vegetal,Alimentos,litro,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,83.0,110.0,102.57142857142857,106,680,495,240
+P0004,Aceite vegetal,Alimentos,litro,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,106.0,112.0,102.0,109,574,495,239
+P0004,Aceite vegetal,Alimentos,litro,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,109.0,112.0,101.57142857142857,107,465,495,238
+P0004,Aceite vegetal,Alimentos,litro,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,107.0,94.0,100.85714285714286,96,358,495,237
+P0004,Aceite vegetal,Alimentos,litro,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,96.0,109.0,101.14285714285714,100,262,495,236
+P0004,Aceite vegetal,Alimentos,litro,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,100.0,98.0,99.85714285714286,79,728,495,235
+P0004,Aceite vegetal,Alimentos,litro,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,79.0,83.0,97.14285714285714,72,649,495,234
+P0004,Aceite vegetal,Alimentos,litro,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,72.0,106.0,95.57142857142857,110,577,495,233
+P0004,Aceite vegetal,Alimentos,litro,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,110.0,109.0,96.14285714285714,117,467,495,232
+P0004,Aceite vegetal,Alimentos,litro,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,117.0,107.0,97.28571428571429,110,350,495,231
+P0004,Aceite vegetal,Alimentos,litro,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,110.0,96.0,97.71428571428571,87,782,495,230
+P0004,Aceite vegetal,Alimentos,litro,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,87.0,100.0,96.42857142857143,90,695,495,229
+P0004,Aceite vegetal,Alimentos,litro,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,90.0,79.0,95.0,71,605,495,228
+P0004,Aceite vegetal,Alimentos,litro,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,71.0,72.0,93.85714285714286,80,534,495,227
+P0004,Aceite vegetal,Alimentos,litro,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,80.0,110.0,95.0,138,454,495,226
+P0004,Aceite vegetal,Alimentos,litro,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,138.0,117.0,99.0,116,316,495,225
+P0004,Aceite vegetal,Alimentos,litro,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,116.0,110.0,98.85714285714286,140,799,495,224
+P0004,Aceite vegetal,Alimentos,litro,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,140.0,87.0,103.14285714285714,125,659,495,223
+P0004,Aceite vegetal,Alimentos,litro,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,125.0,90.0,108.57142857142857,82,534,495,222
+P0004,Aceite vegetal,Alimentos,litro,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,82.0,71.0,107.42857142857143,84,452,495,221
+P0004,Aceite vegetal,Alimentos,litro,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,84.0,80.0,109.28571428571429,99,368,495,220
+P0004,Aceite vegetal,Alimentos,litro,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,99.0,138.0,112.0,136,269,495,219
+P0004,Aceite vegetal,Alimentos,litro,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,136.0,116.0,111.71428571428571,122,774,495,218
+P0004,Aceite vegetal,Alimentos,litro,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,122.0,140.0,112.57142857142857,117,652,495,217
+P0004,Aceite vegetal,Alimentos,litro,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,117.0,125.0,109.28571428571429,106,535,495,216
+P0004,Aceite vegetal,Alimentos,litro,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,106.0,82.0,106.57142857142857,98,429,495,215
+P0004,Aceite vegetal,Alimentos,litro,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,98.0,84.0,108.85714285714286,86,331,495,214
+P0004,Aceite vegetal,Alimentos,litro,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,86.0,99.0,109.14285714285714,84,757,495,213
+P0004,Aceite vegetal,Alimentos,litro,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,84.0,136.0,107.0,115,673,495,212
+P0004,Aceite vegetal,Alimentos,litro,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,115.0,122.0,104.0,134,558,495,211
+P0004,Aceite vegetal,Alimentos,litro,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,134.0,117.0,105.71428571428571,125,424,495,210
+P0004,Aceite vegetal,Alimentos,litro,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,125.0,106.0,106.85714285714286,95,299,495,209
+P0004,Aceite vegetal,Alimentos,litro,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,95.0,98.0,105.28571428571429,100,715,495,208
+P0004,Aceite vegetal,Alimentos,litro,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,100.0,86.0,105.57142857142857,100,615,495,207
+P0004,Aceite vegetal,Alimentos,litro,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,100.0,84.0,107.57142857142857,101,515,495,206
+P0004,Aceite vegetal,Alimentos,litro,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,101.0,115.0,110.0,124,414,495,205
+P0004,Aceite vegetal,Alimentos,litro,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,124.0,134.0,111.28571428571429,141,290,495,204
+P0004,Aceite vegetal,Alimentos,litro,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,141.0,125.0,112.28571428571429,116,773,495,203
+P0004,Aceite vegetal,Alimentos,litro,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,116.0,95.0,111.0,143,657,495,202
+P0004,Aceite vegetal,Alimentos,litro,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,143.0,100.0,117.85714285714286,130,514,495,201
+P0005,Huevos,Alimentos,docena,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,389,767,767,147
+P0005,Huevos,Alimentos,docena,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,389.0,,389.0,244,378,767,146
+P0005,Huevos,Alimentos,docena,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,244.0,,316.5,144,787,767,145
+P0005,Huevos,Alimentos,docena,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,144.0,,259.0,122,643,767,144
+P0005,Huevos,Alimentos,docena,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,122.0,,224.75,112,521,767,143
+P0005,Huevos,Alimentos,docena,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,112.0,,202.2,154,409,767,142
+P0005,Huevos,Alimentos,docena,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,154.0,,194.16666666666666,174,710,767,141
+P0005,Huevos,Alimentos,docena,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,174.0,389.0,191.28571428571428,201,536,767,140
+P0005,Huevos,Alimentos,docena,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,201.0,244.0,164.42857142857142,235,705,767,139
+P0005,Huevos,Alimentos,docena,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,235.0,144.0,163.14285714285714,148,470,767,138
+P0005,Huevos,Alimentos,docena,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,148.0,122.0,163.71428571428572,129,723,767,137
+P0005,Huevos,Alimentos,docena,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,129.0,112.0,164.71428571428572,132,594,767,136
+P0005,Huevos,Alimentos,docena,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,132.0,154.0,167.57142857142858,141,462,767,135
+P0005,Huevos,Alimentos,docena,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,141.0,174.0,165.71428571428572,164,797,767,134
+P0005,Huevos,Alimentos,docena,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,164.0,201.0,164.28571428571428,245,633,767,133
+P0005,Huevos,Alimentos,docena,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,245.0,235.0,170.57142857142858,214,388,767,132
+P0005,Huevos,Alimentos,docena,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,214.0,148.0,167.57142857142858,166,732,767,131
+P0005,Huevos,Alimentos,docena,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,166.0,129.0,170.14285714285714,102,566,767,130
+P0005,Huevos,Alimentos,docena,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,102.0,132.0,166.28571428571428,128,464,767,129
+P0005,Huevos,Alimentos,docena,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,128.0,141.0,165.71428571428572,145,751,767,128
+P0005,Huevos,Alimentos,docena,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,145.0,164.0,166.28571428571428,178,606,767,127
+P0005,Huevos,Alimentos,docena,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,178.0,245.0,168.28571428571428,243,428,767,126
+P0005,Huevos,Alimentos,docena,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,243.0,214.0,168.0,231,743,767,125
+P0005,Huevos,Alimentos,docena,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,231.0,166.0,170.42857142857142,173,512,767,124
+P0005,Huevos,Alimentos,docena,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,173.0,102.0,171.42857142857142,119,747,767,123
+P0005,Huevos,Alimentos,docena,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,119.0,128.0,173.85714285714286,145,628,767,122
+P0005,Huevos,Alimentos,docena,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,145.0,145.0,176.28571428571428,141,483,767,121
+P0005,Huevos,Alimentos,docena,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,141.0,178.0,175.71428571428572,157,743,767,120
+P0005,Huevos,Alimentos,docena,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,157.0,243.0,172.71428571428572,249,586,767,119
+P0005,Huevos,Alimentos,docena,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,249.0,231.0,173.57142857142858,258,737,767,118
+P0005,Huevos,Alimentos,docena,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,258.0,173.0,177.42857142857142,159,479,767,117
+P0005,Huevos,Alimentos,docena,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,159.0,119.0,175.42857142857142,160,785,767,116
+P0005,Huevos,Alimentos,docena,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,160.0,145.0,181.28571428571428,142,625,767,115
+P0005,Huevos,Alimentos,docena,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,142.0,141.0,180.85714285714286,174,483,767,114
+P0005,Huevos,Alimentos,docena,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,174.0,157.0,185.57142857142858,187,748,767,113
+P0005,Huevos,Alimentos,docena,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,187.0,249.0,189.85714285714286,284,561,767,112
+P0005,Huevos,Alimentos,docena,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,284.0,258.0,194.85714285714286,234,755,767,111
+P0005,Huevos,Alimentos,docena,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,234.0,159.0,191.42857142857142,142,521,767,110
+P0005,Huevos,Alimentos,docena,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,142.0,160.0,189.0,160,379,767,109
+P0005,Huevos,Alimentos,docena,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,160.0,142.0,189.0,122,753,767,108
+P0005,Huevos,Alimentos,docena,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,122.0,174.0,186.14285714285714,163,631,767,107
+P0005,Huevos,Alimentos,docena,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,163.0,187.0,184.57142857142858,179,468,767,106
+P0005,Huevos,Alimentos,docena,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,179.0,284.0,183.42857142857142,288,795,767,105
+P0005,Huevos,Alimentos,docena,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,288.0,234.0,184.0,280,507,767,104
+P0005,Huevos,Alimentos,docena,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,280.0,142.0,190.57142857142858,167,761,767,103
+P0005,Huevos,Alimentos,docena,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,167.0,160.0,194.14285714285714,125,594,767,102
+P0005,Huevos,Alimentos,docena,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,125.0,122.0,189.14285714285714,140,469,767,101
+P0005,Huevos,Alimentos,docena,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,140.0,163.0,191.71428571428572,146,795,767,100
+P0005,Huevos,Alimentos,docena,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,146.0,179.0,189.28571428571428,214,649,767,99
+P0005,Huevos,Alimentos,docena,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,214.0,288.0,194.28571428571428,290,435,767,98
+P0005,Huevos,Alimentos,docena,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,290.0,280.0,194.57142857142858,225,795,767,97
+P0005,Huevos,Alimentos,docena,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,225.0,167.0,186.71428571428572,143,570,767,96
+P0005,Huevos,Alimentos,docena,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,143.0,125.0,183.28571428571428,152,427,767,95
+P0005,Huevos,Alimentos,docena,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,152.0,140.0,187.14285714285714,134,772,767,94
+P0005,Huevos,Alimentos,docena,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,134.0,146.0,186.28571428571428,162,638,767,93
+P0005,Huevos,Alimentos,docena,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,162.0,214.0,188.57142857142858,211,476,767,92
+P0005,Huevos,Alimentos,docena,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,211.0,290.0,188.14285714285714,294,759,767,91
+P0005,Huevos,Alimentos,docena,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,294.0,225.0,188.71428571428572,189,465,767,90
+P0005,Huevos,Alimentos,docena,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,189.0,143.0,183.57142857142858,220,767,767,89
+P0005,Huevos,Alimentos,docena,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,220.0,152.0,194.57142857142858,216,547,767,88
+P0006,Detergente en polvo,Limpieza,kg,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,233,727,727,156
+P0006,Detergente en polvo,Limpieza,kg,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,233.0,,233.0,105,494,727,155
+P0006,Detergente en polvo,Limpieza,kg,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,105.0,,169.0,78,389,727,154
+P0006,Detergente en polvo,Limpieza,kg,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,78.0,,138.66666666666666,67,784,727,153
+P0006,Detergente en polvo,Limpieza,kg,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,67.0,,120.75,87,717,727,152
+P0006,Detergente en polvo,Limpieza,kg,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,87.0,,114.0,85,630,727,151
+P0006,Detergente en polvo,Limpieza,kg,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,85.0,,109.16666666666667,108,545,727,150
+P0006,Detergente en polvo,Limpieza,kg,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,108.0,233.0,109.0,143,437,727,149
+P0006,Detergente en polvo,Limpieza,kg,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,143.0,105.0,96.14285714285714,145,711,727,148
+P0006,Detergente en polvo,Limpieza,kg,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,145.0,78.0,101.85714285714286,94,566,727,147
+P0006,Detergente en polvo,Limpieza,kg,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,94.0,67.0,104.14285714285714,83,472,727,146
+P0006,Detergente en polvo,Limpieza,kg,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,83.0,87.0,106.42857142857143,79,389,727,145
+P0006,Detergente en polvo,Limpieza,kg,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,79.0,85.0,105.28571428571429,77,763,727,144
+P0006,Detergente en polvo,Limpieza,kg,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,77.0,108.0,104.14285714285714,100,686,727,143
+P0006,Detergente en polvo,Limpieza,kg,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,100.0,143.0,103.0,152,586,727,142
+P0006,Detergente en polvo,Limpieza,kg,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,152.0,145.0,104.28571428571429,142,434,727,141
+P0006,Detergente en polvo,Limpieza,kg,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,142.0,94.0,103.85714285714286,95,727,727,140
+P0006,Detergente en polvo,Limpieza,kg,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,95.0,83.0,104.0,74,632,727,139
+P0006,Detergente en polvo,Limpieza,kg,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,74.0,79.0,102.71428571428571,77,558,727,138
+P0006,Detergente en polvo,Limpieza,kg,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,77.0,77.0,102.42857142857143,98,481,727,137
+P0006,Detergente en polvo,Limpieza,kg,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,98.0,100.0,105.42857142857143,96,383,727,136
+P0006,Detergente en polvo,Limpieza,kg,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,96.0,152.0,104.85714285714286,161,794,727,135
+P0006,Detergente en polvo,Limpieza,kg,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,161.0,142.0,106.14285714285714,152,633,727,134
+P0006,Detergente en polvo,Limpieza,kg,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,152.0,95.0,107.57142857142857,89,481,727,133
+P0006,Detergente en polvo,Limpieza,kg,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,89.0,74.0,106.71428571428571,95,392,727,132
+P0006,Detergente en polvo,Limpieza,kg,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,95.0,77.0,109.71428571428571,87,793,727,131
+P0006,Detergente en polvo,Limpieza,kg,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,87.0,98.0,111.14285714285714,95,706,727,130
+P0006,Detergente en polvo,Limpieza,kg,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,95.0,96.0,110.71428571428571,111,611,727,129
+P0006,Detergente en polvo,Limpieza,kg,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,111.0,161.0,112.85714285714286,198,500,727,128
+P0006,Detergente en polvo,Limpieza,kg,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,198.0,152.0,118.14285714285714,114,787,727,127
+P0006,Detergente en polvo,Limpieza,kg,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,114.0,89.0,112.71428571428571,105,673,727,126
+P0006,Detergente en polvo,Limpieza,kg,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,105.0,95.0,115.0,82,568,727,125
+P0006,Detergente en polvo,Limpieza,kg,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,82.0,87.0,113.14285714285714,82,486,727,124
+P0006,Detergente en polvo,Limpieza,kg,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,82.0,95.0,112.42857142857143,101,404,727,123
+P0006,Detergente en polvo,Limpieza,kg,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,101.0,111.0,113.28571428571429,90,763,727,122
+P0006,Detergente en polvo,Limpieza,kg,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,90.0,198.0,110.28571428571429,143,673,727,121
+P0006,Detergente en polvo,Limpieza,kg,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,143.0,114.0,102.42857142857143,122,530,727,120
+P0006,Detergente en polvo,Limpieza,kg,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,122.0,105.0,103.57142857142857,85,408,727,119
+P0006,Detergente en polvo,Limpieza,kg,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,85.0,82.0,100.71428571428571,92,701,727,118
+P0006,Detergente en polvo,Limpieza,kg,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,92.0,82.0,102.14285714285714,85,609,727,117
+P0006,Detergente en polvo,Limpieza,kg,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,85.0,101.0,102.57142857142857,78,524,727,116
+P0006,Detergente en polvo,Limpieza,kg,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,78.0,90.0,99.28571428571429,84,446,727,115
+P0006,Detergente en polvo,Limpieza,kg,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,84.0,143.0,98.42857142857143,168,362,727,114
+P0006,Detergente en polvo,Limpieza,kg,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,168.0,122.0,102.0,141,730,727,113
+P0006,Detergente en polvo,Limpieza,kg,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,141.0,85.0,104.71428571428571,98,589,727,112
+P0006,Detergente en polvo,Limpieza,kg,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,98.0,92.0,106.57142857142857,95,491,727,111
+P0006,Detergente en polvo,Limpieza,kg,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,95.0,85.0,107.0,86,396,727,110
+P0006,Detergente en polvo,Limpieza,kg,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,86.0,78.0,107.14285714285714,95,762,727,109
+P0006,Detergente en polvo,Limpieza,kg,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,95.0,84.0,109.57142857142857,117,667,727,108
+P0006,Detergente en polvo,Limpieza,kg,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,117.0,168.0,114.28571428571429,158,550,727,107
+P0006,Detergente en polvo,Limpieza,kg,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,158.0,141.0,112.85714285714286,148,392,727,106
+P0006,Detergente en polvo,Limpieza,kg,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,148.0,98.0,113.85714285714286,97,709,727,105
+P0006,Detergente en polvo,Limpieza,kg,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,97.0,95.0,113.71428571428571,98,612,727,104
+P0006,Detergente en polvo,Limpieza,kg,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,98.0,86.0,114.14285714285714,83,514,727,103
+P0006,Detergente en polvo,Limpieza,kg,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,83.0,95.0,113.71428571428571,99,431,727,102
+P0006,Detergente en polvo,Limpieza,kg,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,99.0,117.0,114.28571428571429,111,332,727,101
+P0006,Detergente en polvo,Limpieza,kg,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,111.0,158.0,113.42857142857143,187,700,727,100
+P0006,Detergente en polvo,Limpieza,kg,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,187.0,148.0,117.57142857142857,123,513,727,99
+P0006,Detergente en polvo,Limpieza,kg,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,123.0,97.0,114.0,114,390,727,98
+P0006,Detergente en polvo,Limpieza,kg,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,114.0,98.0,116.42857142857143,106,700,727,97
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,152,594,594,131
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,152.0,,152.0,121,442,594,130
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,121.0,,136.5,109,321,594,129
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,109.0,,127.33333333333333,99,796,594,128
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,99.0,,120.25,102,697,594,127
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,102.0,,116.6,114,595,594,126
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,114.0,,116.16666666666667,121,481,594,125
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,121.0,152.0,116.85714285714286,170,360,594,124
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,170.0,121.0,119.42857142857143,134,792,594,123
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,134.0,109.0,121.28571428571429,95,658,594,122
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,95.0,99.0,119.28571428571429,93,563,594,121
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,93.0,102.0,118.42857142857143,80,470,594,120
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,80.0,114.0,115.28571428571429,94,390,594,119
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,94.0,121.0,112.42857142857143,120,296,594,118
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,120.0,170.0,112.28571428571429,179,709,594,117
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,179.0,134.0,113.57142857142857,117,530,594,116
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,117.0,95.0,111.14285714285714,110,413,594,115
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,110.0,93.0,113.28571428571429,90,303,594,114
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,90.0,80.0,112.85714285714286,100,770,594,113
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,100.0,94.0,115.71428571428571,103,670,594,112
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,103.0,120.0,117.0,103,567,594,111
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,103.0,179.0,114.57142857142857,170,464,594,110
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,170.0,117.0,113.28571428571429,130,294,594,109
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,130.0,110.0,115.14285714285714,97,777,594,108
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,97.0,90.0,113.28571428571429,96,680,594,107
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,96.0,100.0,114.14285714285714,102,584,594,106
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,102.0,103.0,114.42857142857143,105,482,594,105
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,105.0,103.0,114.71428571428571,133,377,594,104
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,133.0,170.0,119.0,164,718,594,103
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,164.0,130.0,118.14285714285714,159,554,594,102
+P0007,Jabón de baño,Cuidado personal,unidad,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,159.0,97.0,122.28571428571429,106,395,594,101
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,106.0,96.0,123.57142857142857,89,289,594,100
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,89.0,102.0,122.57142857142857,96,753,594,99
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,96.0,105.0,121.71428571428571,121,657,594,98
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,121.0,133.0,124.0,136,536,594,97
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,136.0,164.0,124.42857142857143,160,400,594,96
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,160.0,159.0,123.85714285714286,148,769,594,95
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,148.0,106.0,122.28571428571429,134,621,594,94
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,134.0,89.0,126.28571428571429,129,487,594,93
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,129.0,96.0,132.0,102,358,594,92
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,102.0,121.0,132.85714285714286,123,794,594,91
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,123.0,136.0,133.14285714285714,123,671,594,90
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,123.0,160.0,131.28571428571428,170,548,594,89
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,170.0,148.0,132.71428571428572,146,378,594,88
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,146.0,134.0,132.42857142857142,118,727,594,87
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,118.0,129.0,130.14285714285714,100,609,594,86
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,100.0,102.0,126.0,87,509,594,85
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,87.0,123.0,123.85714285714286,90,422,594,84
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,90.0,123.0,119.14285714285714,121,332,594,83
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,121.0,170.0,118.85714285714286,163,792,594,82
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,163.0,146.0,117.85714285714286,178,629,594,81
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,178.0,118.0,122.42857142857143,129,451,594,80
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,129.0,100.0,124.0,100,322,594,79
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,100.0,87.0,124.0,109,703,594,78
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,109.0,90.0,127.14285714285714,110,594,594,77
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,110.0,121.0,130.0,135,484,594,76
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,135.0,163.0,132.0,174,349,594,75
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,174.0,178.0,133.57142857142858,146,761,594,74
+P0007,Jabón de baño,Cuidado personal,unidad,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,146.0,129.0,129.0,177,615,594,73
+P0007,Jabón de baño,Cuidado personal,unidad,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,177.0,100.0,135.85714285714286,135,438,594,72
+P0008,Agua embotellada,Bebidas,litro,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,394,575,575,338
+P0008,Agua embotellada,Bebidas,litro,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,394.0,,394.0,325,731,575,337
+P0008,Agua embotellada,Bebidas,litro,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,325.0,,359.5,161,406,575,336
+P0008,Agua embotellada,Bebidas,litro,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,161.0,,293.3333333333333,151,780,575,335
+P0008,Agua embotellada,Bebidas,litro,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,151.0,,257.75,151,629,575,334
+P0008,Agua embotellada,Bebidas,litro,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,151.0,,236.4,155,478,575,333
+P0008,Agua embotellada,Bebidas,litro,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,155.0,,222.83333333333334,185,323,575,332
+P0008,Agua embotellada,Bebidas,litro,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,185.0,394.0,217.42857142857142,274,773,575,331
+P0008,Agua embotellada,Bebidas,litro,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,274.0,325.0,200.28571428571428,275,499,575,330
+P0008,Agua embotellada,Bebidas,litro,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,275.0,161.0,193.14285714285714,171,751,575,329
+P0008,Agua embotellada,Bebidas,litro,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,171.0,151.0,194.57142857142858,170,580,575,328
+P0008,Agua embotellada,Bebidas,litro,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,170.0,151.0,197.28571428571428,151,410,575,327
+P0008,Agua embotellada,Bebidas,litro,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,151.0,155.0,197.28571428571428,154,259,575,326
+P0008,Agua embotellada,Bebidas,litro,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,154.0,185.0,197.14285714285714,200,783,575,325
+P0008,Agua embotellada,Bebidas,litro,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,200.0,274.0,199.28571428571428,294,583,575,324
+P0008,Agua embotellada,Bebidas,litro,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,294.0,275.0,202.14285714285714,294,289,575,323
+P0008,Agua embotellada,Bebidas,litro,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,294.0,171.0,204.85714285714286,158,706,575,322
+P0008,Agua embotellada,Bebidas,litro,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,158.0,170.0,203.0,125,548,575,321
+P0008,Agua embotellada,Bebidas,litro,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,125.0,151.0,196.57142857142858,126,423,575,320
+P0008,Agua embotellada,Bebidas,litro,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,126.0,154.0,193.0,184,297,575,319
+P0008,Agua embotellada,Bebidas,litro,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,184.0,200.0,197.28571428571428,213,774,575,318
+P0008,Agua embotellada,Bebidas,litro,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,213.0,294.0,199.14285714285714,287,561,575,317
+P0008,Agua embotellada,Bebidas,litro,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,287.0,294.0,198.14285714285714,233,274,575,316
+P0008,Agua embotellada,Bebidas,litro,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,233.0,158.0,189.42857142857142,158,750,575,315
+P0008,Agua embotellada,Bebidas,litro,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,158.0,125.0,189.42857142857142,198,592,575,314
+P0008,Agua embotellada,Bebidas,litro,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,198.0,126.0,199.85714285714286,158,394,575,313
+P0008,Agua embotellada,Bebidas,litro,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,158.0,184.0,204.42857142857142,156,736,575,312
+P0008,Agua embotellada,Bebidas,litro,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,156.0,213.0,200.42857142857142,209,580,575,311
+P0008,Agua embotellada,Bebidas,litro,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,209.0,287.0,199.85714285714286,266,371,575,310
+P0008,Agua embotellada,Bebidas,litro,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,266.0,233.0,196.85714285714286,282,775,575,309
+P0008,Agua embotellada,Bebidas,litro,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,282.0,158.0,203.85714285714286,169,493,575,308
+P0008,Agua embotellada,Bebidas,litro,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,169.0,198.0,205.42857142857142,175,324,575,307
+P0008,Agua embotellada,Bebidas,litro,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,175.0,158.0,202.14285714285714,159,738,575,306
+P0008,Agua embotellada,Bebidas,litro,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,159.0,156.0,202.28571428571428,179,579,575,305
+P0008,Agua embotellada,Bebidas,litro,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,179.0,209.0,205.57142857142858,189,400,575,304
+P0008,Agua embotellada,Bebidas,litro,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,189.0,266.0,202.71428571428572,374,741,575,303
+P0008,Agua embotellada,Bebidas,litro,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,374.0,282.0,218.14285714285714,257,367,575,302
+P0008,Agua embotellada,Bebidas,litro,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,257.0,169.0,214.57142857142858,158,783,575,301
+P0008,Agua embotellada,Bebidas,litro,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,158.0,175.0,213.0,187,625,575,300
+P0008,Agua embotellada,Bebidas,litro,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,187.0,159.0,214.71428571428572,154,438,575,299
+P0008,Agua embotellada,Bebidas,litro,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,154.0,179.0,214.0,195,284,575,298
+P0008,Agua embotellada,Bebidas,litro,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,195.0,189.0,216.28571428571428,237,784,575,297
+P0008,Agua embotellada,Bebidas,litro,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,237.0,374.0,223.14285714285714,332,547,575,296
+P0008,Agua embotellada,Bebidas,litro,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,332.0,257.0,217.14285714285714,298,739,575,295
+P0008,Agua embotellada,Bebidas,litro,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,298.0,158.0,223.0,204,441,575,294
+P0008,Agua embotellada,Bebidas,litro,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,204.0,187.0,229.57142857142858,152,791,575,293
+P0008,Agua embotellada,Bebidas,litro,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,152.0,154.0,224.57142857142858,153,639,575,292
+P0008,Agua embotellada,Bebidas,litro,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,153.0,195.0,224.42857142857142,182,486,575,291
+P0008,Agua embotellada,Bebidas,litro,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,182.0,237.0,222.57142857142858,178,304,575,290
+P0008,Agua embotellada,Bebidas,litro,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,178.0,332.0,214.14285714285714,355,715,575,289
+P0008,Agua embotellada,Bebidas,litro,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,355.0,298.0,217.42857142857142,280,360,575,288
+P0008,Agua embotellada,Bebidas,litro,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,280.0,204.0,214.85714285714286,137,799,575,287
+P0008,Agua embotellada,Bebidas,litro,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,137.0,152.0,205.28571428571428,158,662,575,286
+P0008,Agua embotellada,Bebidas,litro,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,158.0,153.0,206.14285714285714,135,504,575,285
+P0008,Agua embotellada,Bebidas,litro,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,135.0,182.0,203.57142857142858,163,369,575,284
+P0008,Agua embotellada,Bebidas,litro,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,163.0,178.0,200.85714285714286,220,758,575,283
+P0008,Agua embotellada,Bebidas,litro,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,220.0,355.0,206.85714285714286,333,538,575,282
+P0008,Agua embotellada,Bebidas,litro,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,333.0,280.0,203.71428571428572,296,740,575,281
+P0008,Agua embotellada,Bebidas,litro,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,296.0,137.0,206.0,252,444,575,280
+P0008,Agua embotellada,Bebidas,litro,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,252.0,158.0,222.42857142857142,212,767,575,279
+P0009,Galletas,Snacks,paquete,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,411,575,575,227
+P0009,Galletas,Snacks,paquete,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,411.0,,411.0,262,788,575,226
+P0009,Galletas,Snacks,paquete,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,262.0,,336.5,156,526,575,225
+P0009,Galletas,Snacks,paquete,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,156.0,,276.3333333333333,145,370,575,224
+P0009,Galletas,Snacks,paquete,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,145.0,,243.5,161,733,575,223
+P0009,Galletas,Snacks,paquete,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,161.0,,227.0,145,572,575,222
+P0009,Galletas,Snacks,paquete,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,145.0,,213.33333333333334,171,427,575,221
+P0009,Galletas,Snacks,paquete,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,171.0,411.0,207.28571428571428,260,730,575,220
+P0009,Galletas,Snacks,paquete,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,260.0,262.0,185.71428571428572,225,470,575,219
+P0009,Galletas,Snacks,paquete,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,225.0,156.0,180.42857142857142,138,758,575,218
+P0009,Galletas,Snacks,paquete,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,138.0,145.0,177.85714285714286,143,620,575,217
+P0009,Galletas,Snacks,paquete,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,143.0,161.0,177.57142857142858,141,477,575,216
+P0009,Galletas,Snacks,paquete,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,141.0,145.0,174.71428571428572,150,336,575,215
+P0009,Galletas,Snacks,paquete,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,150.0,171.0,175.42857142857142,197,739,575,214
+P0009,Galletas,Snacks,paquete,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,197.0,260.0,179.14285714285714,318,542,575,213
+P0009,Galletas,Snacks,paquete,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,318.0,225.0,187.42857142857142,258,717,575,212
+P0009,Galletas,Snacks,paquete,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,258.0,138.0,192.14285714285714,144,459,575,211
+P0009,Galletas,Snacks,paquete,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,144.0,143.0,193.0,155,315,575,210
+P0009,Galletas,Snacks,paquete,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,155.0,141.0,194.71428571428572,119,742,575,209
+P0009,Galletas,Snacks,paquete,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,119.0,150.0,191.57142857142858,151,623,575,208
+P0009,Galletas,Snacks,paquete,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,151.0,197.0,191.71428571428572,189,472,575,207
+P0009,Galletas,Snacks,paquete,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,189.0,318.0,190.57142857142858,275,283,575,206
+P0009,Galletas,Snacks,paquete,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,275.0,258.0,184.42857142857142,273,730,575,205
+P0009,Galletas,Snacks,paquete,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,273.0,144.0,186.57142857142858,134,457,575,204
+P0009,Galletas,Snacks,paquete,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,134.0,155.0,185.14285714285714,170,323,575,203
+P0009,Galletas,Snacks,paquete,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,170.0,119.0,187.28571428571428,139,787,575,202
+P0009,Galletas,Snacks,paquete,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,139.0,151.0,190.14285714285714,161,648,575,201
+P0009,Galletas,Snacks,paquete,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,161.0,189.0,191.57142857142858,142,487,575,200
+P0009,Galletas,Snacks,paquete,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,142.0,275.0,184.85714285714286,272,345,575,199
+P0009,Galletas,Snacks,paquete,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,272.0,273.0,184.42857142857142,265,747,575,198
+P0009,Galletas,Snacks,paquete,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,265.0,134.0,183.28571428571428,143,482,575,197
+P0009,Galletas,Snacks,paquete,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,143.0,170.0,184.57142857142858,164,339,575,196
+P0009,Galletas,Snacks,paquete,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,164.0,139.0,183.71428571428572,128,750,575,195
+P0009,Galletas,Snacks,paquete,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,128.0,161.0,182.14285714285714,145,622,575,194
+P0009,Galletas,Snacks,paquete,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,145.0,142.0,179.85714285714286,196,477,575,193
+P0009,Galletas,Snacks,paquete,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,196.0,272.0,187.57142857142858,364,281,575,192
+P0009,Galletas,Snacks,paquete,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,364.0,265.0,200.71428571428572,244,773,575,191
+P0009,Galletas,Snacks,paquete,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,244.0,143.0,197.71428571428572,167,529,575,190
+P0009,Galletas,Snacks,paquete,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,167.0,164.0,201.14285714285714,184,362,575,189
+P0009,Galletas,Snacks,paquete,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,184.0,128.0,204.0,141,797,575,188
+P0009,Galletas,Snacks,paquete,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,141.0,145.0,205.85714285714286,135,656,575,187
+P0009,Galletas,Snacks,paquete,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,135.0,196.0,204.42857142857142,170,521,575,186
+P0009,Galletas,Snacks,paquete,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,170.0,364.0,200.71428571428572,306,351,575,185
+P0009,Galletas,Snacks,paquete,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,306.0,244.0,192.42857142857142,269,774,575,184
+P0009,Galletas,Snacks,paquete,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,269.0,167.0,196.0,180,505,575,183
+P0009,Galletas,Snacks,paquete,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,180.0,184.0,197.85714285714286,162,325,575,182
+P0009,Galletas,Snacks,paquete,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,162.0,141.0,194.71428571428572,158,732,575,181
+P0009,Galletas,Snacks,paquete,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,158.0,135.0,197.14285714285714,155,574,575,180
+P0009,Galletas,Snacks,paquete,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,155.0,170.0,200.0,224,419,575,179
+P0009,Galletas,Snacks,paquete,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,224.0,306.0,207.71428571428572,305,797,575,178
+P0009,Galletas,Snacks,paquete,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,305.0,269.0,207.57142857142858,270,492,575,177
+P0009,Galletas,Snacks,paquete,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,270.0,180.0,207.71428571428572,182,726,575,176
+P0009,Galletas,Snacks,paquete,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,182.0,162.0,208.0,169,544,575,175
+P0009,Galletas,Snacks,paquete,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,169.0,158.0,209.0,127,375,575,174
+P0009,Galletas,Snacks,paquete,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,127.0,155.0,204.57142857142858,176,792,575,173
+P0009,Galletas,Snacks,paquete,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,176.0,224.0,207.57142857142858,181,616,575,172
+P0009,Galletas,Snacks,paquete,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,181.0,305.0,201.42857142857142,339,435,575,171
+P0009,Galletas,Snacks,paquete,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,339.0,270.0,206.28571428571428,307,776,575,170
+P0009,Galletas,Snacks,paquete,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,307.0,182.0,211.57142857142858,214,469,575,169
+P0009,Galletas,Snacks,paquete,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,214.0,169.0,216.14285714285714,193,771,575,168
+P0010,Papel higiénico,Hogar,paquete,2022-01-01,2022,1,1,5,Sábado,52,1,1,1,Feriado (fin de semana),,,,211,748,748,390
+P0010,Papel higiénico,Hogar,paquete,2022-01-02,2022,1,2,6,Domingo,52,1,1,0,Fin de semana,211.0,,211.0,133,537,748,389
+P0010,Papel higiénico,Hogar,paquete,2022-01-03,2022,1,3,0,Lunes,1,1,0,0,Entre semana,133.0,,172.0,87,404,748,388
+P0010,Papel higiénico,Hogar,paquete,2022-01-04,2022,1,4,1,Martes,1,1,0,0,Entre semana,87.0,,143.66666666666666,84,710,748,387
+P0010,Papel higiénico,Hogar,paquete,2022-01-05,2022,1,5,2,Miércoles,1,1,0,0,Entre semana,84.0,,128.75,84,626,748,386
+P0010,Papel higiénico,Hogar,paquete,2022-01-06,2022,1,6,3,Jueves,1,1,0,0,Entre semana,84.0,,119.8,94,542,748,385
+P0010,Papel higiénico,Hogar,paquete,2022-01-07,2022,1,7,4,Viernes,1,1,0,0,Entre semana,94.0,,115.5,104,448,748,384
+P0010,Papel higiénico,Hogar,paquete,2022-01-08,2022,1,8,5,Sábado,1,2,1,0,Fin de semana,104.0,211.0,113.85714285714286,156,344,748,383
+P0010,Papel higiénico,Hogar,paquete,2022-01-09,2022,1,9,6,Domingo,1,2,1,0,Fin de semana,156.0,133.0,106.0,125,762,748,382
+P0010,Papel higiénico,Hogar,paquete,2022-01-10,2022,1,10,0,Lunes,2,2,0,0,Entre semana,125.0,87.0,104.85714285714286,91,637,748,381
+P0010,Papel higiénico,Hogar,paquete,2022-01-11,2022,1,11,1,Martes,2,2,0,0,Entre semana,91.0,84.0,105.42857142857143,102,546,748,380
+P0010,Papel higiénico,Hogar,paquete,2022-01-12,2022,1,12,2,Miércoles,2,2,0,0,Entre semana,102.0,84.0,108.0,77,444,748,379
+P0010,Papel higiénico,Hogar,paquete,2022-01-13,2022,1,13,3,Jueves,2,2,0,0,Entre semana,77.0,94.0,107.0,71,367,748,378
+P0010,Papel higiénico,Hogar,paquete,2022-01-14,2022,1,14,4,Viernes,2,2,0,0,Entre semana,71.0,104.0,103.71428571428571,141,752,748,377
+P0010,Papel higiénico,Hogar,paquete,2022-01-15,2022,1,15,5,Sábado,2,3,1,0,Fin de semana,141.0,156.0,109.0,146,611,748,376
+P0010,Papel higiénico,Hogar,paquete,2022-01-16,2022,1,16,6,Domingo,2,3,1,0,Fin de semana,146.0,125.0,107.57142857142857,109,465,748,375
+P0010,Papel higiénico,Hogar,paquete,2022-01-17,2022,1,17,0,Lunes,3,3,0,0,Entre semana,109.0,91.0,105.28571428571429,93,356,748,374
+P0010,Papel higiénico,Hogar,paquete,2022-01-18,2022,1,18,1,Martes,3,3,0,0,Entre semana,93.0,102.0,105.57142857142857,89,734,748,373
+P0010,Papel higiénico,Hogar,paquete,2022-01-19,2022,1,19,2,Miércoles,3,3,0,0,Entre semana,89.0,77.0,103.71428571428571,86,645,748,372
+P0010,Papel higiénico,Hogar,paquete,2022-01-20,2022,1,20,3,Jueves,3,3,0,0,Entre semana,86.0,71.0,105.0,85,559,748,371
+P0010,Papel higiénico,Hogar,paquete,2022-01-21,2022,1,21,4,Viernes,3,3,0,0,Entre semana,85.0,141.0,107.0,122,474,748,370
+P0010,Papel higiénico,Hogar,paquete,2022-01-22,2022,1,22,5,Sábado,3,4,1,0,Fin de semana,122.0,146.0,104.28571428571429,163,352,748,369
+P0010,Papel higiénico,Hogar,paquete,2022-01-23,2022,1,23,6,Domingo,3,4,1,0,Fin de semana,163.0,109.0,106.71428571428571,147,744,748,368
+P0010,Papel higiénico,Hogar,paquete,2022-01-24,2022,1,24,0,Lunes,4,4,0,0,Entre semana,147.0,93.0,112.14285714285714,118,597,748,367
+P0010,Papel higiénico,Hogar,paquete,2022-01-25,2022,1,25,1,Martes,4,4,0,0,Entre semana,118.0,89.0,115.71428571428571,95,479,748,366
+P0010,Papel higiénico,Hogar,paquete,2022-01-26,2022,1,26,2,Miércoles,4,4,0,0,Entre semana,95.0,86.0,116.57142857142857,86,384,748,365
+P0010,Papel higiénico,Hogar,paquete,2022-01-27,2022,1,27,3,Jueves,4,4,0,0,Entre semana,86.0,85.0,116.57142857142857,96,771,748,364
+P0010,Papel higiénico,Hogar,paquete,2022-01-28,2022,1,28,4,Viernes,4,4,0,0,Entre semana,96.0,122.0,118.14285714285714,124,675,748,363
+P0010,Papel higiénico,Hogar,paquete,2022-01-29,2022,1,29,5,Sábado,4,5,1,0,Fin de semana,124.0,163.0,118.42857142857143,131,551,748,362
+P0010,Papel higiénico,Hogar,paquete,2022-01-30,2022,1,30,6,Domingo,4,5,1,0,Fin de semana,131.0,147.0,113.85714285714286,142,420,748,361
+P0010,Papel higiénico,Hogar,paquete,2022-01-31,2022,1,31,0,Lunes,5,5,0,0,Entre semana,142.0,118.0,113.14285714285714,119,749,748,360
+P0010,Papel higiénico,Hogar,paquete,2022-02-01,2022,2,1,1,Martes,5,5,0,0,Entre semana,119.0,95.0,113.28571428571429,94,630,748,359
+P0010,Papel higiénico,Hogar,paquete,2022-02-02,2022,2,2,2,Miércoles,5,5,0,0,Entre semana,94.0,86.0,113.14285714285714,106,536,748,358
+P0010,Papel higiénico,Hogar,paquete,2022-02-03,2022,2,3,3,Jueves,5,5,0,0,Entre semana,106.0,96.0,116.0,88,430,748,357
+P0010,Papel higiénico,Hogar,paquete,2022-02-04,2022,2,4,4,Viernes,5,5,0,0,Entre semana,88.0,124.0,114.85714285714286,126,342,748,356
+P0010,Papel higiénico,Hogar,paquete,2022-02-05,2022,2,5,5,Sábado,5,6,1,0,Fin de semana,126.0,131.0,115.14285714285714,166,791,748,355
+P0010,Papel higiénico,Hogar,paquete,2022-02-06,2022,2,6,6,Domingo,5,6,1,0,Fin de semana,166.0,142.0,120.14285714285714,130,625,748,354
+P0010,Papel higiénico,Hogar,paquete,2022-02-07,2022,2,7,0,Lunes,6,6,0,0,Entre semana,130.0,119.0,118.42857142857143,104,495,748,353
+P0010,Papel higiénico,Hogar,paquete,2022-02-08,2022,2,8,1,Martes,6,6,0,0,Entre semana,104.0,94.0,116.28571428571429,109,391,748,352
+P0010,Papel higiénico,Hogar,paquete,2022-02-09,2022,2,9,2,Miércoles,6,6,0,0,Entre semana,109.0,106.0,118.42857142857143,77,744,748,351
+P0010,Papel higiénico,Hogar,paquete,2022-02-10,2022,2,10,3,Jueves,6,6,0,0,Entre semana,77.0,88.0,114.28571428571429,101,667,748,350
+P0010,Papel higiénico,Hogar,paquete,2022-02-11,2022,2,11,4,Viernes,6,6,0,0,Entre semana,101.0,126.0,116.14285714285714,111,566,748,349
+P0010,Papel higiénico,Hogar,paquete,2022-02-12,2022,2,12,5,Sábado,6,7,1,0,Fin de semana,111.0,166.0,114.0,158,455,748,348
+P0010,Papel higiénico,Hogar,paquete,2022-02-13,2022,2,13,6,Domingo,6,7,1,0,Fin de semana,158.0,130.0,112.85714285714286,144,742,748,347
+P0010,Papel higiénico,Hogar,paquete,2022-02-14,2022,2,14,0,Lunes,7,7,0,0,Entre semana,144.0,104.0,114.85714285714286,86,598,748,346
+P0010,Papel higiénico,Hogar,paquete,2022-02-15,2022,2,15,1,Martes,7,7,0,0,Entre semana,86.0,109.0,112.28571428571429,83,512,748,345
+P0010,Papel higiénico,Hogar,paquete,2022-02-16,2022,2,16,2,Miércoles,7,7,0,0,Entre semana,83.0,77.0,108.57142857142857,99,429,748,344
+P0010,Papel higiénico,Hogar,paquete,2022-02-17,2022,2,17,3,Jueves,7,7,0,0,Entre semana,99.0,101.0,111.71428571428571,76,730,748,343
+P0010,Papel higiénico,Hogar,paquete,2022-02-18,2022,2,18,4,Viernes,7,7,0,0,Entre semana,76.0,111.0,108.14285714285714,134,654,748,342
+P0010,Papel higiénico,Hogar,paquete,2022-02-19,2022,2,19,5,Sábado,7,8,1,0,Fin de semana,134.0,158.0,111.42857142857143,172,520,748,341
+P0010,Papel higiénico,Hogar,paquete,2022-02-20,2022,2,20,6,Domingo,7,8,1,0,Fin de semana,172.0,144.0,113.42857142857143,138,348,748,340
+P0010,Papel higiénico,Hogar,paquete,2022-02-21,2022,2,21,0,Lunes,8,8,0,0,Entre semana,138.0,86.0,112.57142857142857,92,752,748,339
+P0010,Papel higiénico,Hogar,paquete,2022-02-22,2022,2,22,1,Martes,8,8,0,0,Entre semana,92.0,83.0,113.42857142857143,109,660,748,338
+P0010,Papel higiénico,Hogar,paquete,2022-02-23,2022,2,23,2,Miércoles,8,8,0,0,Entre semana,109.0,99.0,117.14285714285714,99,551,748,337
+P0010,Papel higiénico,Hogar,paquete,2022-02-24,2022,2,24,3,Jueves,8,8,0,0,Entre semana,99.0,76.0,117.14285714285714,129,452,748,336
+P0010,Papel higiénico,Hogar,paquete,2022-02-25,2022,2,25,4,Viernes,8,8,0,0,Entre semana,129.0,134.0,124.71428571428571,131,706,748,335
+P0010,Papel higiénico,Hogar,paquete,2022-02-26,2022,2,26,5,Sábado,8,9,1,0,Fin de semana,131.0,172.0,124.28571428571429,167,575,748,334
+P0010,Papel higiénico,Hogar,paquete,2022-02-27,2022,2,27,6,Domingo,8,9,1,0,Fin de semana,167.0,138.0,123.57142857142857,163,408,748,333
+P0010,Papel higiénico,Hogar,paquete,2022-02-28,2022,2,28,0,Lunes,9,9,0,1,Feriado,163.0,92.0,127.14285714285714,155,756,748,332
+P0010,Papel higiénico,Hogar,paquete,2022-03-01,2022,3,1,1,Martes,9,9,0,1,Feriado,155.0,109.0,136.14285714285714,156,601,748,331

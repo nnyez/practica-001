@@ -1,0 +1,11 @@
+﻿product_id,nombre,categoria,unidad,stock_actual,fecha_expiracion
+P0001,Arroz blanco,Alimentos,kg,684,2022-09-19
+P0002,Leche entera,Alimentos,litro,665,2022-11-03
+P0003,Pan de molde,Alimentos,unidad,780,2023-01-14
+P0004,Aceite vegetal,Alimentos,litro,495,2022-09-18
+P0005,Huevos,Alimentos,docena,767,2022-05-28
+P0006,Detergente en polvo,Limpieza,kg,727,2022-06-06
+P0007,Jabón de baño,Cuidado personal,unidad,594,2022-05-12
+P0008,Agua embotellada,Bebidas,litro,575,2022-12-05
+P0009,Galletas,Snacks,paquete,575,2022-08-16
+P0010,Papel higiénico,Hogar,paquete,748,2023-01-26

@@ -1,0 +1,601 @@
+﻿product_id,nombre,fecha_venta,cantidad_vendida,stock_en_momento
+P0001,Arroz blanco,2022-01-01,137,684
+P0001,Arroz blanco,2022-01-02,100,547
+P0001,Arroz blanco,2022-01-03,59,447
+P0001,Arroz blanco,2022-01-04,149,388
+P0001,Arroz blanco,2022-01-05,116,239
+P0001,Arroz blanco,2022-01-06,114,123
+P0001,Arroz blanco,2022-01-07,85,393
+P0001,Arroz blanco,2022-01-08,122,308
+P0001,Arroz blanco,2022-01-09,243,568
+P0001,Arroz blanco,2022-01-10,100,325
+P0001,Arroz blanco,2022-01-11,57,225
+P0001,Arroz blanco,2022-01-12,135,168
+P0001,Arroz blanco,2022-01-13,119,313
+P0001,Arroz blanco,2022-01-14,81,194
+P0001,Arroz blanco,2022-01-15,97,113
+P0001,Arroz blanco,2022-01-16,121,455
+P0001,Arroz blanco,2022-01-17,116,334
+P0001,Arroz blanco,2022-01-18,183,218
+P0001,Arroz blanco,2022-01-19,211,518
+P0001,Arroz blanco,2022-01-20,78,307
+P0001,Arroz blanco,2022-01-21,180,229
+P0001,Arroz blanco,2022-01-22,128,483
+P0001,Arroz blanco,2022-01-23,137,355
+P0001,Arroz blanco,2022-01-24,114,218
+P0001,Arroz blanco,2022-01-25,183,604
+P0001,Arroz blanco,2022-01-26,91,421
+P0001,Arroz blanco,2022-01-27,223,330
+P0001,Arroz blanco,2022-01-28,130,557
+P0001,Arroz blanco,2022-01-29,146,427
+P0001,Arroz blanco,2022-01-30,131,281
+P0001,Arroz blanco,2022-01-31,138,150
+P0001,Arroz blanco,2022-02-01,227,507
+P0001,Arroz blanco,2022-02-02,94,280
+P0001,Arroz blanco,2022-02-03,100,186
+P0001,Arroz blanco,2022-02-04,118,405
+P0001,Arroz blanco,2022-02-05,126,287
+P0001,Arroz blanco,2022-02-06,233,454
+P0001,Arroz blanco,2022-02-07,129,221
+P0001,Arroz blanco,2022-02-08,86,92
+P0001,Arroz blanco,2022-02-09,119,303
+P0001,Arroz blanco,2022-02-10,185,480
+P0001,Arroz blanco,2022-02-11,96,295
+P0001,Arroz blanco,2022-02-12,74,199
+P0001,Arroz blanco,2022-02-13,60,125
+P0001,Arroz blanco,2022-02-14,138,391
+P0001,Arroz blanco,2022-02-15,141,253
+P0001,Arroz blanco,2022-02-16,243,610
+P0001,Arroz blanco,2022-02-17,48,367
+P0001,Arroz blanco,2022-02-18,124,319
+P0001,Arroz blanco,2022-02-19,129,195
+P0001,Arroz blanco,2022-02-20,64,66
+P0001,Arroz blanco,2022-02-21,175,259
+P0001,Arroz blanco,2022-02-22,108,507
+P0001,Arroz blanco,2022-02-23,93,399
+P0001,Arroz blanco,2022-02-24,86,306
+P0001,Arroz blanco,2022-02-25,139,220
+P0001,Arroz blanco,2022-02-26,90,474
+P0001,Arroz blanco,2022-02-27,87,384
+P0001,Arroz blanco,2022-02-28,130,297
+P0001,Arroz blanco,2022-03-01,94,167
+P0002,Leche entera,2022-01-01,130,665
+P0002,Leche entera,2022-01-02,65,535
+P0002,Leche entera,2022-01-03,169,470
+P0002,Leche entera,2022-01-04,109,301
+P0002,Leche entera,2022-01-05,122,192
+P0002,Leche entera,2022-01-06,77,412
+P0002,Leche entera,2022-01-07,118,335
+P0002,Leche entera,2022-01-08,69,217
+P0002,Leche entera,2022-01-09,123,148
+P0002,Leche entera,2022-01-10,120,406
+P0002,Leche entera,2022-01-11,192,286
+P0002,Leche entera,2022-01-12,181,545
+P0002,Leche entera,2022-01-13,106,364
+P0002,Leche entera,2022-01-14,122,258
+P0002,Leche entera,2022-01-15,137,454
+P0002,Leche entera,2022-01-16,113,317
+P0002,Leche entera,2022-01-17,109,204
+P0002,Leche entera,2022-01-18,85,95
+P0002,Leche entera,2022-01-19,238,287
+P0002,Leche entera,2022-01-20,199,515
+P0002,Leche entera,2022-01-21,111,316
+P0002,Leche entera,2022-01-22,111,205
+P0002,Leche entera,2022-01-23,125,477
+P0002,Leche entera,2022-01-24,192,352
+P0002,Leche entera,2022-01-25,128,160
+P0002,Leche entera,2022-01-26,75,323
+P0002,Leche entera,2022-01-27,123,248
+P0002,Leche entera,2022-01-28,58,125
+P0002,Leche entera,2022-01-29,90,480
+P0002,Leche entera,2022-01-30,128,390
+P0002,Leche entera,2022-01-31,185,262
+P0002,Leche entera,2022-02-01,55,77
+P0002,Leche entera,2022-02-02,152,458
+P0002,Leche entera,2022-02-03,172,306
+P0002,Leche entera,2022-02-04,83,134
+P0002,Leche entera,2022-02-05,140,494
+P0002,Leche entera,2022-02-06,74,354
+P0002,Leche entera,2022-02-07,127,280
+P0002,Leche entera,2022-02-08,130,153
+P0002,Leche entera,2022-02-09,186,275
+P0002,Leche entera,2022-02-10,95,407
+P0002,Leche entera,2022-02-11,122,312
+P0002,Leche entera,2022-02-12,80,190
+P0002,Leche entera,2022-02-13,101,110
+P0002,Leche entera,2022-02-14,136,342
+P0002,Leche entera,2022-02-15,52,206
+P0002,Leche entera,2022-02-16,171,573
+P0002,Leche entera,2022-02-17,188,402
+P0002,Leche entera,2022-02-18,175,214
+P0002,Leche entera,2022-02-19,115,470
+P0002,Leche entera,2022-02-20,110,355
+P0002,Leche entera,2022-02-21,79,245
+P0002,Leche entera,2022-02-22,148,166
+P0002,Leche entera,2022-02-23,167,343
+P0002,Leche entera,2022-02-24,228,468
+P0002,Leche entera,2022-02-25,182,240
+P0002,Leche entera,2022-02-26,179,360
+P0002,Leche entera,2022-02-27,54,181
+P0002,Leche entera,2022-02-28,94,127
+P0002,Leche entera,2022-03-01,234,393
+P0003,Pan de molde,2022-01-01,127,780
+P0003,Pan de molde,2022-01-02,208,653
+P0003,Pan de molde,2022-01-03,103,445
+P0003,Pan de molde,2022-01-04,139,342
+P0003,Pan de molde,2022-01-05,126,203
+P0003,Pan de molde,2022-01-06,117,386
+P0003,Pan de molde,2022-01-07,81,269
+P0003,Pan de molde,2022-01-08,108,188
+P0003,Pan de molde,2022-01-09,76,80
+P0003,Pan de molde,2022-01-10,29,419
+P0003,Pan de molde,2022-01-11,107,390
+P0003,Pan de molde,2022-01-12,82,283
+P0003,Pan de molde,2022-01-13,53,201
+P0003,Pan de molde,2022-01-14,76,148
+P0003,Pan de molde,2022-01-15,170,464
+P0003,Pan de molde,2022-01-16,213,294
+P0003,Pan de molde,2022-01-17,139,497
+P0003,Pan de molde,2022-01-18,167,358
+P0003,Pan de molde,2022-01-19,116,191
+P0003,Pan de molde,2022-01-20,150,571
+P0003,Pan de molde,2022-01-21,78,421
+P0003,Pan de molde,2022-01-22,77,343
+P0003,Pan de molde,2022-01-23,151,266
+P0003,Pan de molde,2022-01-24,176,613
+P0003,Pan de molde,2022-01-25,154,437
+P0003,Pan de molde,2022-01-26,106,283
+P0003,Pan de molde,2022-01-27,71,177
+P0003,Pan de molde,2022-01-28,111,455
+P0003,Pan de molde,2022-01-29,78,344
+P0003,Pan de molde,2022-01-30,164,266
+P0003,Pan de molde,2022-01-31,118,385
+P0003,Pan de molde,2022-02-01,196,267
+P0003,Pan de molde,2022-02-02,96,555
+P0003,Pan de molde,2022-02-03,81,459
+P0003,Pan de molde,2022-02-04,81,378
+P0003,Pan de molde,2022-02-05,136,297
+P0003,Pan de molde,2022-02-06,129,161
+P0003,Pan de molde,2022-02-07,200,391
+P0003,Pan de molde,2022-02-08,190,191
+P0003,Pan de molde,2022-02-09,136,476
+P0003,Pan de molde,2022-02-10,174,340
+P0003,Pan de molde,2022-02-11,111,166
+P0003,Pan de molde,2022-02-12,101,410
+P0003,Pan de molde,2022-02-13,115,309
+P0003,Pan de molde,2022-02-14,118,194
+P0003,Pan de molde,2022-02-15,214,503
+P0003,Pan de molde,2022-02-16,104,289
+P0003,Pan de molde,2022-02-17,122,185
+P0003,Pan de molde,2022-02-18,175,485
+P0003,Pan de molde,2022-02-19,125,310
+P0003,Pan de molde,2022-02-20,139,185
+P0003,Pan de molde,2022-02-21,109,424
+P0003,Pan de molde,2022-02-22,118,315
+P0003,Pan de molde,2022-02-23,166,197
+P0003,Pan de molde,2022-02-24,49,484
+P0003,Pan de molde,2022-02-25,143,435
+P0003,Pan de molde,2022-02-26,135,292
+P0003,Pan de molde,2022-02-27,103,157
+P0003,Pan de molde,2022-02-28,188,462
+P0003,Pan de molde,2022-03-01,151,274
+P0004,Aceite vegetal,2022-01-01,103,495
+P0004,Aceite vegetal,2022-01-02,101,392
+P0004,Aceite vegetal,2022-01-03,143,291
+P0004,Aceite vegetal,2022-01-04,77,148
+P0004,Aceite vegetal,2022-01-05,117,351
+P0004,Aceite vegetal,2022-01-06,131,234
+P0004,Aceite vegetal,2022-01-07,100,103
+P0004,Aceite vegetal,2022-01-08,186,333
+P0004,Aceite vegetal,2022-01-09,57,147
+P0004,Aceite vegetal,2022-01-10,46,90
+P0004,Aceite vegetal,2022-01-11,140,528
+P0004,Aceite vegetal,2022-01-12,38,388
+P0004,Aceite vegetal,2022-01-13,189,350
+P0004,Aceite vegetal,2022-01-14,87,161
+P0004,Aceite vegetal,2022-01-15,154,527
+P0004,Aceite vegetal,2022-01-16,180,373
+P0004,Aceite vegetal,2022-01-17,179,193
+P0004,Aceite vegetal,2022-01-18,197,275
+P0004,Aceite vegetal,2022-01-19,154,448
+P0004,Aceite vegetal,2022-01-20,182,294
+P0004,Aceite vegetal,2022-01-21,209,373
+P0004,Aceite vegetal,2022-01-22,126,164
+P0004,Aceite vegetal,2022-01-23,179,414
+P0004,Aceite vegetal,2022-01-24,43,235
+P0004,Aceite vegetal,2022-01-25,143,192
+P0004,Aceite vegetal,2022-01-26,94,402
+P0004,Aceite vegetal,2022-01-27,155,308
+P0004,Aceite vegetal,2022-01-28,221,463
+P0004,Aceite vegetal,2022-01-29,108,242
+P0004,Aceite vegetal,2022-01-30,125,134
+P0004,Aceite vegetal,2022-01-31,149,316
+P0004,Aceite vegetal,2022-02-01,238,498
+P0004,Aceite vegetal,2022-02-02,152,260
+P0004,Aceite vegetal,2022-02-03,108,108
+P0004,Aceite vegetal,2022-02-04,111,276
+P0004,Aceite vegetal,2022-02-05,146,165
+P0004,Aceite vegetal,2022-02-06,139,463
+P0004,Aceite vegetal,2022-02-07,103,324
+P0004,Aceite vegetal,2022-02-08,106,221
+P0004,Aceite vegetal,2022-02-09,99,115
+P0004,Aceite vegetal,2022-02-10,145,486
+P0004,Aceite vegetal,2022-02-11,195,341
+P0004,Aceite vegetal,2022-02-12,239,523
+P0004,Aceite vegetal,2022-02-13,128,284
+P0004,Aceite vegetal,2022-02-14,196,514
+P0004,Aceite vegetal,2022-02-15,183,318
+P0004,Aceite vegetal,2022-02-16,198,426
+P0004,Aceite vegetal,2022-02-17,121,228
+P0004,Aceite vegetal,2022-02-18,86,107
+P0004,Aceite vegetal,2022-02-19,95,343
+P0004,Aceite vegetal,2022-02-20,192,248
+P0004,Aceite vegetal,2022-02-21,95,528
+P0004,Aceite vegetal,2022-02-22,188,433
+P0004,Aceite vegetal,2022-02-23,187,245
+P0004,Aceite vegetal,2022-02-24,138,549
+P0004,Aceite vegetal,2022-02-25,96,411
+P0004,Aceite vegetal,2022-02-26,101,315
+P0004,Aceite vegetal,2022-02-27,209,214
+P0004,Aceite vegetal,2022-02-28,120,502
+P0004,Aceite vegetal,2022-03-01,70,382
+P0005,Huevos,2022-01-01,148,767
+P0005,Huevos,2022-01-02,134,619
+P0005,Huevos,2022-01-03,124,485
+P0005,Huevos,2022-01-04,146,361
+P0005,Huevos,2022-01-05,114,215
+P0005,Huevos,2022-01-06,131,483
+P0005,Huevos,2022-01-07,119,352
+P0005,Huevos,2022-01-08,157,233
+P0005,Huevos,2022-01-09,149,513
+P0005,Huevos,2022-01-10,97,364
+P0005,Huevos,2022-01-11,193,267
+P0005,Huevos,2022-01-12,115,378
+P0005,Huevos,2022-01-13,139,263
+P0005,Huevos,2022-01-14,104,124
+P0005,Huevos,2022-01-15,83,486
+P0005,Huevos,2022-01-16,66,403
+P0005,Huevos,2022-01-17,152,337
+P0005,Huevos,2022-01-18,82,185
+P0005,Huevos,2022-01-19,92,103
+P0005,Huevos,2022-01-20,270,280
+P0005,Huevos,2022-01-21,115,418
+P0005,Huevos,2022-01-22,183,303
+P0005,Huevos,2022-01-23,117,120
+P0005,Huevos,2022-01-24,104,361
+P0005,Huevos,2022-01-25,147,257
+P0005,Huevos,2022-01-26,163,588
+P0005,Huevos,2022-01-27,116,425
+P0005,Huevos,2022-01-28,184,309
+P0005,Huevos,2022-01-29,65,125
+P0005,Huevos,2022-01-30,132,390
+P0005,Huevos,2022-01-31,147,258
+P0005,Huevos,2022-02-01,113,569
+P0005,Huevos,2022-02-02,28,456
+P0005,Huevos,2022-02-03,196,428
+P0005,Huevos,2022-02-04,215,232
+P0005,Huevos,2022-02-05,183,337
+P0005,Huevos,2022-02-06,189,584
+P0005,Huevos,2022-02-07,58,395
+P0005,Huevos,2022-02-08,154,337
+P0005,Huevos,2022-02-09,61,183
+P0005,Huevos,2022-02-10,52,122
+P0005,Huevos,2022-02-11,146,508
+P0005,Huevos,2022-02-12,192,362
+P0005,Huevos,2022-02-13,85,170
+P0005,Huevos,2022-02-14,152,517
+P0005,Huevos,2022-02-15,115,365
+P0005,Huevos,2022-02-16,151,250
+P0005,Huevos,2022-02-17,85,99
+P0005,Huevos,2022-02-18,115,436
+P0005,Huevos,2022-02-19,177,321
+P0005,Huevos,2022-02-20,103,144
+P0005,Huevos,2022-02-21,120,349
+P0005,Huevos,2022-02-22,89,229
+P0005,Huevos,2022-02-23,143,477
+P0005,Huevos,2022-02-24,166,334
+P0005,Huevos,2022-02-25,75,168
+P0005,Huevos,2022-02-26,83,93
+P0005,Huevos,2022-02-27,162,380
+P0005,Huevos,2022-02-28,101,218
+P0005,Huevos,2022-03-01,129,605
+P0006,Detergente en polvo,2022-01-01,205,727
+P0006,Detergente en polvo,2022-01-02,86,522
+P0006,Detergente en polvo,2022-01-03,123,436
+P0006,Detergente en polvo,2022-01-04,128,313
+P0006,Detergente en polvo,2022-01-05,164,185
+P0006,Detergente en polvo,2022-01-06,77,383
+P0006,Detergente en polvo,2022-01-07,197,306
+P0006,Detergente en polvo,2022-01-08,159,458
+P0006,Detergente en polvo,2022-01-09,82,299
+P0006,Detergente en polvo,2022-01-10,125,217
+P0006,Detergente en polvo,2022-01-11,125,532
+P0006,Detergente en polvo,2022-01-12,110,407
+P0006,Detergente en polvo,2022-01-13,160,297
+P0006,Detergente en polvo,2022-01-14,93,137
+P0006,Detergente en polvo,2022-01-15,63,305
+P0006,Detergente en polvo,2022-01-16,217,242
+P0006,Detergente en polvo,2022-01-17,156,320
+P0006,Detergente en polvo,2022-01-18,119,164
+P0006,Detergente en polvo,2022-01-19,84,543
+P0006,Detergente en polvo,2022-01-20,90,459
+P0006,Detergente en polvo,2022-01-21,93,369
+P0006,Detergente en polvo,2022-01-22,214,276
+P0006,Detergente en polvo,2022-01-23,44,62
+P0006,Detergente en polvo,2022-01-24,147,462
+P0006,Detergente en polvo,2022-01-25,136,315
+P0006,Detergente en polvo,2022-01-26,190,475
+P0006,Detergente en polvo,2022-01-27,117,285
+P0006,Detergente en polvo,2022-01-28,199,565
+P0006,Detergente en polvo,2022-01-29,269,366
+P0006,Detergente en polvo,2022-01-30,86,97
+P0006,Detergente en polvo,2022-01-31,140,318
+P0006,Detergente en polvo,2022-02-01,55,178
+P0006,Detergente en polvo,2022-02-02,124,565
+P0006,Detergente en polvo,2022-02-03,154,441
+P0006,Detergente en polvo,2022-02-04,78,287
+P0006,Detergente en polvo,2022-02-05,79,209
+P0006,Detergente en polvo,2022-02-06,210,408
+P0006,Detergente en polvo,2022-02-07,143,198
+P0006,Detergente en polvo,2022-02-08,72,305
+P0006,Detergente en polvo,2022-02-09,44,233
+P0006,Detergente en polvo,2022-02-10,256,474
+P0006,Detergente en polvo,2022-02-11,82,218
+P0006,Detergente en polvo,2022-02-12,145,460
+P0006,Detergente en polvo,2022-02-13,85,315
+P0006,Detergente en polvo,2022-02-14,173,230
+P0006,Detergente en polvo,2022-02-15,73,447
+P0006,Detergente en polvo,2022-02-16,110,374
+P0006,Detergente en polvo,2022-02-17,168,264
+P0006,Detergente en polvo,2022-02-18,220,520
+P0006,Detergente en polvo,2022-02-19,116,300
+P0006,Detergente en polvo,2022-02-20,138,184
+P0006,Detergente en polvo,2022-02-21,114,490
+P0006,Detergente en polvo,2022-02-22,180,376
+P0006,Detergente en polvo,2022-02-23,76,196
+P0006,Detergente en polvo,2022-02-24,175,484
+P0006,Detergente en polvo,2022-02-25,93,309
+P0006,Detergente en polvo,2022-02-26,146,216
+P0006,Detergente en polvo,2022-02-27,130,434
+P0006,Detergente en polvo,2022-02-28,148,304
+P0006,Detergente en polvo,2022-03-01,147,156
+P0007,Jabón de baño,2022-01-01,186,594
+P0007,Jabón de baño,2022-01-02,125,408
+P0007,Jabón de baño,2022-01-03,183,283
+P0007,Jabón de baño,2022-01-04,191,536
+P0007,Jabón de baño,2022-01-05,78,345
+P0007,Jabón de baño,2022-01-06,65,267
+P0007,Jabón de baño,2022-01-07,230,663
+P0007,Jabón de baño,2022-01-08,125,433
+P0007,Jabón de baño,2022-01-09,178,308
+P0007,Jabón de baño,2022-01-10,160,586
+P0007,Jabón de baño,2022-01-11,58,426
+P0007,Jabón de baño,2022-01-12,138,368
+P0007,Jabón de baño,2022-01-13,173,230
+P0007,Jabón de baño,2022-01-14,93,463
+P0007,Jabón de baño,2022-01-15,92,370
+P0007,Jabón de baño,2022-01-16,147,278
+P0007,Jabón de baño,2022-01-17,174,432
+P0007,Jabón de baño,2022-01-18,178,258
+P0007,Jabón de baño,2022-01-19,155,515
+P0007,Jabón de baño,2022-01-20,145,360
+P0007,Jabón de baño,2022-01-21,110,215
+P0007,Jabón de baño,2022-01-22,54,105
+P0007,Jabón de baño,2022-01-23,118,491
+P0007,Jabón de baño,2022-01-24,227,373
+P0007,Jabón de baño,2022-01-25,205,513
+P0007,Jabón de baño,2022-01-26,85,308
+P0007,Jabón de baño,2022-01-27,102,223
+P0007,Jabón de baño,2022-01-28,86,121
+P0007,Jabón de baño,2022-01-29,168,476
+P0007,Jabón de baño,2022-01-30,191,308
+P0007,Jabón de baño,2022-01-31,163,592
+P0007,Jabón de baño,2022-02-01,110,429
+P0007,Jabón de baño,2022-02-02,249,319
+P0007,Jabón de baño,2022-02-03,71,532
+P0007,Jabón de baño,2022-02-04,153,461
+P0007,Jabón de baño,2022-02-05,194,308
+P0007,Jabón de baño,2022-02-06,127,594
+P0007,Jabón de baño,2022-02-07,182,467
+P0007,Jabón de baño,2022-02-08,155,285
+P0007,Jabón de baño,2022-02-09,196,529
+P0007,Jabón de baño,2022-02-10,122,333
+P0007,Jabón de baño,2022-02-11,80,211
+P0007,Jabón de baño,2022-02-12,100,131
+P0007,Jabón de baño,2022-02-13,65,281
+P0007,Jabón de baño,2022-02-14,111,216
+P0007,Jabón de baño,2022-02-15,133,432
+P0007,Jabón de baño,2022-02-16,74,299
+P0007,Jabón de baño,2022-02-17,52,225
+P0007,Jabón de baño,2022-02-18,112,173
+P0007,Jabón de baño,2022-02-19,84,458
+P0007,Jabón de baño,2022-02-20,58,374
+P0007,Jabón de baño,2022-02-21,214,316
+P0007,Jabón de baño,2022-02-22,129,445
+P0007,Jabón de baño,2022-02-23,98,316
+P0007,Jabón de baño,2022-02-24,87,218
+P0007,Jabón de baño,2022-02-25,256,551
+P0007,Jabón de baño,2022-02-26,180,295
+P0007,Jabón de baño,2022-02-27,62,115
+P0007,Jabón de baño,2022-02-28,135,382
+P0007,Jabón de baño,2022-03-01,181,247
+P0008,Agua embotellada,2022-01-01,147,575
+P0008,Agua embotellada,2022-01-02,120,428
+P0008,Agua embotellada,2022-01-03,152,308
+P0008,Agua embotellada,2022-01-04,131,156
+P0008,Agua embotellada,2022-01-05,119,511
+P0008,Agua embotellada,2022-01-06,205,392
+P0008,Agua embotellada,2022-01-07,97,187
+P0008,Agua embotellada,2022-01-08,175,343
+P0008,Agua embotellada,2022-01-09,133,168
+P0008,Agua embotellada,2022-01-10,161,345
+P0008,Agua embotellada,2022-01-11,87,184
+P0008,Agua embotellada,2022-01-12,74,97
+P0008,Agua embotellada,2022-01-13,108,326
+P0008,Agua embotellada,2022-01-14,145,218
+P0008,Agua embotellada,2022-01-15,103,492
+P0008,Agua embotellada,2022-01-16,120,389
+P0008,Agua embotellada,2022-01-17,188,269
+P0008,Agua embotellada,2022-01-18,104,489
+P0008,Agua embotellada,2022-01-19,58,385
+P0008,Agua embotellada,2022-01-20,112,327
+P0008,Agua embotellada,2022-01-21,138,215
+P0008,Agua embotellada,2022-01-22,160,388
+P0008,Agua embotellada,2022-01-23,108,228
+P0008,Agua embotellada,2022-01-24,110,120
+P0008,Agua embotellada,2022-01-25,138,354
+P0008,Agua embotellada,2022-01-26,129,216
+P0008,Agua embotellada,2022-01-27,86,87
+P0008,Agua embotellada,2022-01-28,92,277
+P0008,Agua embotellada,2022-01-29,104,185
+P0008,Agua embotellada,2022-01-30,170,404
+P0008,Agua embotellada,2022-01-31,71,234
+P0008,Agua embotellada,2022-02-01,152,163
+P0008,Agua embotellada,2022-02-02,84,300
+P0008,Agua embotellada,2022-02-03,164,216
+P0008,Agua embotellada,2022-02-04,129,408
+P0008,Agua embotellada,2022-02-05,190,279
+P0008,Agua embotellada,2022-02-06,91,568
+P0008,Agua embotellada,2022-02-07,92,477
+P0008,Agua embotellada,2022-02-08,76,385
+P0008,Agua embotellada,2022-02-09,81,309
+P0008,Agua embotellada,2022-02-10,120,228
+P0008,Agua embotellada,2022-02-11,148,461
+P0008,Agua embotellada,2022-02-12,202,313
+P0008,Agua embotellada,2022-02-13,63,111
+P0008,Agua embotellada,2022-02-14,96,494
+P0008,Agua embotellada,2022-02-15,103,398
+P0008,Agua embotellada,2022-02-16,32,295
+P0008,Agua embotellada,2022-02-17,174,263
+P0008,Agua embotellada,2022-02-18,209,404
+P0008,Agua embotellada,2022-02-19,208,448
+P0008,Agua embotellada,2022-02-20,85,240
+P0008,Agua embotellada,2022-02-21,129,155
+P0008,Agua embotellada,2022-02-22,129,466
+P0008,Agua embotellada,2022-02-23,125,337
+P0008,Agua embotellada,2022-02-24,78,212
+P0008,Agua embotellada,2022-02-25,107,134
+P0008,Agua embotellada,2022-02-26,226,421
+P0008,Agua embotellada,2022-02-27,58,195
+P0008,Agua embotellada,2022-02-28,145,527
+P0008,Agua embotellada,2022-03-01,112,382
+P0009,Galletas,2022-01-01,71,575
+P0009,Galletas,2022-01-02,111,504
+P0009,Galletas,2022-01-03,201,393
+P0009,Galletas,2022-01-04,65,192
+P0009,Galletas,2022-01-05,70,127
+P0009,Galletas,2022-01-06,111,413
+P0009,Galletas,2022-01-07,172,302
+P0009,Galletas,2022-01-08,124,130
+P0009,Galletas,2022-01-09,198,455
+P0009,Galletas,2022-01-10,184,257
+P0009,Galletas,2022-01-11,165,523
+P0009,Galletas,2022-01-12,95,358
+P0009,Galletas,2022-01-13,134,263
+P0009,Galletas,2022-01-14,151,542
+P0009,Galletas,2022-01-15,120,391
+P0009,Galletas,2022-01-16,131,271
+P0009,Galletas,2022-01-17,115,140
+P0009,Galletas,2022-01-18,208,486
+P0009,Galletas,2022-01-19,91,278
+P0009,Galletas,2022-01-20,243,524
+P0009,Galletas,2022-01-21,152,281
+P0009,Galletas,2022-01-22,139,406
+P0009,Galletas,2022-01-23,102,267
+P0009,Galletas,2022-01-24,107,165
+P0009,Galletas,2022-01-25,125,443
+P0009,Galletas,2022-01-26,106,318
+P0009,Galletas,2022-01-27,120,212
+P0009,Galletas,2022-01-28,105,543
+P0009,Galletas,2022-01-29,24,438
+P0009,Galletas,2022-01-30,122,414
+P0009,Galletas,2022-01-31,119,292
+P0009,Galletas,2022-02-01,159,173
+P0009,Galletas,2022-02-02,74,312
+P0009,Galletas,2022-02-03,127,238
+P0009,Galletas,2022-02-04,128,470
+P0009,Galletas,2022-02-05,122,342
+P0009,Galletas,2022-02-06,152,220
+P0009,Galletas,2022-02-07,109,406
+P0009,Galletas,2022-02-08,91,297
+P0009,Galletas,2022-02-09,96,206
+P0009,Galletas,2022-02-10,223,609
+P0009,Galletas,2022-02-11,304,386
+P0009,Galletas,2022-02-12,90,354
+P0009,Galletas,2022-02-13,90,264
+P0009,Galletas,2022-02-14,89,174
+P0009,Galletas,2022-02-15,69,85
+P0009,Galletas,2022-02-16,171,335
+P0009,Galletas,2022-02-17,213,508
+P0009,Galletas,2022-02-18,169,295
+P0009,Galletas,2022-02-19,148,494
+P0009,Galletas,2022-02-20,117,346
+P0009,Galletas,2022-02-21,68,229
+P0009,Galletas,2022-02-22,81,161
+P0009,Galletas,2022-02-23,144,419
+P0009,Galletas,2022-02-24,73,275
+P0009,Galletas,2022-02-25,101,202
+P0009,Galletas,2022-02-26,206,469
+P0009,Galletas,2022-02-27,155,263
+P0009,Galletas,2022-02-28,240,542
+P0009,Galletas,2022-03-01,100,302
+P0010,Papel higiénico,2022-01-01,65,748
+P0010,Papel higiénico,2022-01-02,175,683
+P0010,Papel higiénico,2022-01-03,139,508
+P0010,Papel higiénico,2022-01-04,210,369
+P0010,Papel higiénico,2022-01-05,146,159
+P0010,Papel higiénico,2022-01-06,86,468
+P0010,Papel higiénico,2022-01-07,86,382
+P0010,Papel higiénico,2022-01-08,128,296
+P0010,Papel higiénico,2022-01-09,71,168
+P0010,Papel higiénico,2022-01-10,179,427
+P0010,Papel higiénico,2022-01-11,128,248
+P0010,Papel higiénico,2022-01-12,48,120
+P0010,Papel higiénico,2022-01-13,132,453
+P0010,Papel higiénico,2022-01-14,160,321
+P0010,Papel higiénico,2022-01-15,158,161
+P0010,Papel higiénico,2022-01-16,143,361
+P0010,Papel higiénico,2022-01-17,55,218
+P0010,Papel higiénico,2022-01-18,198,540
+P0010,Papel higiénico,2022-01-19,119,342
+P0010,Papel higiénico,2022-01-20,157,223
+P0010,Papel higiénico,2022-01-21,97,378
+P0010,Papel higiénico,2022-01-22,173,281
+P0010,Papel higiénico,2022-01-23,232,365
+P0010,Papel higiénico,2022-01-24,100,133
+P0010,Papel higiénico,2022-01-25,160,321
+P0010,Papel higiénico,2022-01-26,121,161
+P0010,Papel higiénico,2022-01-27,167,341
+P0010,Papel higiénico,2022-01-28,206,597
+P0010,Papel higiénico,2022-01-29,125,391
+P0010,Papel higiénico,2022-01-30,80,266
+P0010,Papel higiénico,2022-01-31,122,186
+P0010,Papel higiénico,2022-02-01,56,64
+P0010,Papel higiénico,2022-02-02,156,417
+P0010,Papel higiénico,2022-02-03,89,261
+P0010,Papel higiénico,2022-02-04,115,172
+P0010,Papel higiénico,2022-02-05,149,330
+P0010,Papel higiénico,2022-02-06,168,181
+P0010,Papel higiénico,2022-02-07,133,371
+P0010,Papel higiénico,2022-02-08,134,238
+P0010,Papel higiénico,2022-02-09,115,568
+P0010,Papel higiénico,2022-02-10,82,453
+P0010,Papel higiénico,2022-02-11,149,371
+P0010,Papel higiénico,2022-02-12,116,222
+P0010,Papel higiénico,2022-02-13,49,106
+P0010,Papel higiénico,2022-02-14,142,322
+P0010,Papel higiénico,2022-02-15,67,180
+P0010,Papel higiénico,2022-02-16,136,494
+P0010,Papel higiénico,2022-02-17,247,358
+P0010,Papel higiénico,2022-02-18,75,111
+P0010,Papel higiénico,2022-02-19,115,333
+P0010,Papel higiénico,2022-02-20,132,218
+P0010,Papel higiénico,2022-02-21,104,546
+P0010,Papel higiénico,2022-02-22,185,442
+P0010,Papel higiénico,2022-02-23,112,257
+P0010,Papel higiénico,2022-02-24,87,145
+P0010,Papel higiénico,2022-02-25,185,533
+P0010,Papel higiénico,2022-02-26,114,348
+P0010,Papel higiénico,2022-02-27,168,234
+P0010,Papel higiénico,2022-02-28,77,563
+P0010,Papel higiénico,2022-03-01,96,486

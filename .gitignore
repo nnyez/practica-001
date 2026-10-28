@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+*.egg-info/
+
+# Datos y artefactos grandes
+*.ods
+*.zip
+
+# Notebooks y locks
+.ipynb_checkpoints/
+.~lock.*
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db

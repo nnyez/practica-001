@@ -1,0 +1,7 @@
+﻿Feature,Type,Count,Missing,Mean,Std. dev.,Zeros,Values (Min/Median/Max),Most common (Frequency),Unique
+product_id,STRING,10,0,—,—,—,—,P0001 (Frequency: 1),10
+nombre,STRING,10,0,—,—,—,—,Aceite vegetal (Frequency: 1),10
+categoria,STRING,10,0,—,—,—,—,Alimentos (Frequency: 5),6
+unidad,STRING,10,0,—,—,—,—,litro (Frequency: 3),5
+stock_actual,INT64,10,0,661.0,97.013,0,Min: 495; Median: 674.5; Max: 780,575 (Frequency: 2),9
+fecha_expiracion,DATE,10,0,—,—,—,Min: 2022-04-18; Median: 2022-09-05; Max: 2022-11-02,2022-04-18 (Frequency: 1),10
