@@ -27,7 +27,12 @@ from pptx import Presentation
 from pptx.util import Inches as PInches
 from pptx.util import Pt as PPt
 
-from analisis_exploratorio import (
+import sys
+_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
+from src.fase1.analisis_exploratorio import (
     comparar_feriados,
     comparar_fin_de_semana,
     detectar_calidad,
@@ -36,7 +41,7 @@ from analisis_exploratorio import (
     resumen_por_producto,
 )
 
-BASE = Path(__file__).resolve().parent.parent
+BASE = Path(__file__).resolve().parent.parent.parent
 FIG = BASE / "figuras"
 REPORTE = BASE / "reporte"
 PRESENTACION = BASE / "presentacion"

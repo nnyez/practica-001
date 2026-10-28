@@ -21,3 +21,6 @@ __pycache__/
 # Sistema
 .DS_Store
 Thumbs.db
+
+# LibreOffice
+.libreoffice_profile/

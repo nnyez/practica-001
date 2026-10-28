@@ -15,10 +15,10 @@ modelos LSTM y las funciones de predicción listas para despliegue.
 | `notebooks/tarea01_ingenieria_caracteristicas.ipynb` | EDA, variables y secuencias. |
 | `notebooks/fase2_modelos.ipynb` | Modelo LSTM, finetuning y evaluación. |
 | `notebooks/fase3_prediccion.ipynb` | Funciones de predicción y despliegue. |
-| `src/generar_dataset.py` | Genera el dataset sintético con patrones realistas. |
-| `src/analisis_exploratorio.py` | Funciones del análisis exploratorio (EDA). |
-| `src/feature_engineering.py` | Crea las variables de ingeniería de características. |
-| `src/generar_reporte.py` | Construye el reporte (DOCX/PDF) y la presentación (PPTX/PDF). |
+| `src/fase1/generar_dataset.py` | Genera el dataset sintético con patrones realistas. |
+| `src/fase1/analisis_exploratorio.py` | Funciones del análisis exploratorio (EDA). |
+| `src/fase1/feature_engineering.py` | Crea las variables de ingeniería de características. |
+| `src/fase1/generar_reporte.py` | Construye el reporte (DOCX/PDF) y la presentación (PPTX/PDF). |
 | `src/fase2/` | Modelos predictivos (RNN/LSTM). |
 | `src/fase2/config.py` | Rutas e hiperparámetros. |
 | `src/fase2/datos.py` | Carga, escalado y secuencias temporales. |
@@ -65,16 +65,16 @@ python -m venv .venv
 
 ```bash
 # 1) Generar el dataset sintético
-.venv/bin/python src/generar_dataset.py
+.venv/bin/python src/fase1/generar_dataset.py
 
 # 2) Generar las figuras del EDA y ver el perfil de los datos
-.venv/bin/python src/analisis_exploratorio.py
+.venv/bin/python src/fase1/analisis_exploratorio.py
 
 # 3) Crear las variables de ingeniería de características
-.venv/bin/python src/feature_engineering.py
+.venv/bin/python src/fase1/feature_engineering.py
 
 # 4) Generar el reporte (PDF) y la presentación (PDF/PPTX)
-.venv/bin/python src/generar_reporte.py
+.venv/bin/python src/fase1/generar_reporte.py
 ```
 
 ### Modelos predictivos

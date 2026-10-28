@@ -92,7 +92,7 @@ def _con_categoria(df: pd.DataFrame) -> pd.DataFrame:
     """Garantiza que el DataFrame tenga la columna `categoria`."""
     if "categoria" in df.columns:
         return df
-    inventario = pd.read_csv(Path(__file__).resolve().parent.parent / "datos" / "inventory.csv",
+    inventario = pd.read_csv(Path(__file__).resolve().parent.parent.parent / "datos" / "inventory.csv",
                              encoding="utf-8-sig")
     return unir_inventario(df, inventario)
 
@@ -636,7 +636,7 @@ def generar_todas_las_figuras(df: pd.DataFrame, dir_salida: str | Path = "figura
 
 def main() -> None:
     """Ejecuta el EDA completo: carga datos, perfila y genera las figuras."""
-    base = Path(__file__).resolve().parent.parent
+    base = Path(__file__).resolve().parent.parent.parent
     ventas, inventario = cargar_datos(base / "datos")
     df = unir_inventario(ventas, inventario)
 

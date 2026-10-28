@@ -32,20 +32,17 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-try:
-    from analisis_exploratorio import (  # noqa: E402
-        PAIS_FERIADOS,
-        agregar_variables_temporales,
-        cargar_datos,
-        unir_inventario,
-    )
-except ModuleNotFoundError:
-    from src.analisis_exploratorio import (  # noqa: E402
-        PAIS_FERIADOS,
-        agregar_variables_temporales,
-        cargar_datos,
-        unir_inventario,
-    )
+import sys
+_ROOT = Path(__file__).resolve().parent.parent.parent
+if str(_ROOT) not in sys.path:
+    sys.path.insert(0, str(_ROOT))
+
+from src.fase1.analisis_exploratorio import (  # noqa: E402
+    PAIS_FERIADOS,
+    agregar_variables_temporales,
+    cargar_datos,
+    unir_inventario,
+)
 
 
 # --------------------------------------------------------------------------- #
@@ -118,7 +115,7 @@ def guardar_features(df: pd.DataFrame, ruta: str | Path) -> Path:
 # Punto de entrada
 # --------------------------------------------------------------------------- #
 def main() -> None:
-    base = Path(__file__).resolve().parent.parent
+    base = Path(__file__).resolve().parent.parent.parent
     parser = argparse.ArgumentParser(description="Crea las variables de ingeniería de características.")
     parser.add_argument("--datos", default=str(base / "datos"), help="Carpeta con los CSV de entrada")
     parser.add_argument("--salida", default=str(base / "datos" / "ventas_features.csv"),
