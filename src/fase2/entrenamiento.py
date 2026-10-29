@@ -19,7 +19,6 @@ from .modelos import construir_modelo
 
 
 def entrenar_modelo(
-    tipo: str = "lstm",
     X_train=None,
     y_train=None,
     X_val=None,
@@ -30,15 +29,14 @@ def entrenar_modelo(
     batch_size: int = config.BATCH_SIZE,
     epocas: int = config.EPOCAS,
     paciencia: int = config.PACIENCIA,
-    dropout: float = 0.0,
     verbose: int = 2,
 ):
-    """Entrena un modelo y devuelve ``(modelo, historial)``."""
+    """Entrena el modelo LSTM y devuelve ``(modelo, historial)``."""
     tf.keras.utils.set_random_seed(config.SEMILLA)
 
     modelo = construir_modelo(
-        tipo=tipo, n_pasos=n_pasos, n_variables=n_variables,
-        unidades=unidades, dropout=dropout,
+        n_pasos=n_pasos, n_variables=n_variables,
+        unidades=unidades,
     )
     parada = EarlyStopping(
         monitor="val_loss", patience=paciencia, restore_best_weights=True, verbose=0
@@ -72,7 +70,6 @@ def buscar_hiperparametros(
 
     for unidades, batch_size in combinaciones:
         modelo, historial = entrenar_modelo(
-            tipo="lstm",
             X_train=X_train, y_train=y_train, X_val=X_val, y_val=y_val,
             n_pasos=n_pasos, n_variables=n_variables,
             unidades=unidades, batch_size=batch_size,

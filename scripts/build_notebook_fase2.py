@@ -117,7 +117,6 @@ md("""## 5. Modelo LSTM simple
 Igual que el cuaderno de referencia: `Sequential()` + `LSTM` + `Dense(1)`, pérdida `mae`, optimizador `adam` y `shuffle=False` para respetar el orden temporal.""")
 
 code("""modelo_base, hist_base = entrenar_modelo(
-    tipo='lstm',
     X_train=dp.X_train, y_train=dp.y_train,
     X_val=dp.X_val, y_val=dp.y_val,
     n_pasos=dp.ventana, n_variables=dp.n_variables,
@@ -153,7 +152,6 @@ md("""## 7. Modelo final
 Reentrenamos el LSTM con los mejores hiperparámetros y guardamos el modelo **y el escalador** para reutilizarlos en predicción.""")
 
 code("""modelo, historial = entrenar_modelo(
-    tipo='lstm',
     X_train=dp.X_train, y_train=dp.y_train,
     X_val=dp.X_val, y_val=dp.y_val,
     n_pasos=dp.ventana, n_variables=dp.n_variables,
@@ -224,7 +222,7 @@ graficar_predicciones(
     config.DIR_FIGURAS / '02_prediccion_vs_real.png',
 )
 
-# 3) Comparación de modelos
+# 3) Comparación de métodos (baseline / base / afinado)
 graficar_comparacion(resumen, config.DIR_FIGURAS / '03_comparacion_modelos.png')
 
 # 4) Ejemplo por producto (el de mayor venta en test)

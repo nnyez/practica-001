@@ -48,53 +48,62 @@ def main() -> None:
     print(tabla_grid.to_string(index=False))
     print("Mejores parámetros:", mejores, "\n")
 
-    # 4. Modelos finales
-    print("=" * 60, "\nEntrenamiento de modelos finales\n", "=" * 60)
-    resumen = [{"modelo": "Baseline (persistencia)", **m_base}]
-    historiales = {}
+    # 4. Modelo base (sin finetuning), para referencia
+    print("=" * 60, "\nModelo base (sin finetuning)\n", "=" * 60)
+    modelo_base, historial_base = entrenar_modelo(
+        X_train=dp.X_train, y_train=dp.y_train,
+        X_val=dp.X_val, y_val=dp.y_val,
+        n_pasos=dp.ventana, n_variables=dp.n_variables,
+        unidades=config.UNIDADES, batch_size=config.BATCH_SIZE,
+        epocas=config.EPOCAS, paciencia=config.PACIENCIA, verbose=0,
+    )
+    y_pred_base_real = desescalar(predecir(modelo_base, dp.X_test), dp.escalador, dp.n_variables)
+    m_base_modelo = metricas(y_test_real, y_pred_base_real)
+    print(f"LSTM base: RMSE={m_base_modelo['RMSE']:.2f} MAE={m_base_modelo['MAE']:.2f} MAPE={m_base_modelo['MAPE_%']:.2f}%\n")
 
-    for tipo in ["rnn", "lstm", "lstm_apilada"]:
-        modelo, historial = entrenar_modelo(
-            tipo=tipo,
-            X_train=dp.X_train, y_train=dp.y_train,
-            X_val=dp.X_val, y_val=dp.y_val,
-            n_pasos=dp.ventana, n_variables=dp.n_variables,
-            unidades=mejores["unidades"], batch_size=mejores["batch_size"],
-        )
-        historiales[tipo] = historial
-        guardar_historial(historial, config.DIR_RESULTADOS / f"historial_{tipo}.csv")
+    # 5. Modelo final (LSTM con finetuning)
+    print("=" * 60, "\nModelo final (LSTM con finetuning)\n", "=" * 60)
+    modelo, historial = entrenar_modelo(
+        X_train=dp.X_train, y_train=dp.y_train,
+        X_val=dp.X_val, y_val=dp.y_val,
+        n_pasos=dp.ventana, n_variables=dp.n_variables,
+        unidades=mejores["unidades"], batch_size=mejores["batch_size"],
+        epocas=config.EPOCAS, paciencia=config.PACIENCIA, verbose=0,
+    )
+    y_pred_real = desescalar(predecir(modelo, dp.X_test), dp.escalador, dp.n_variables)
+    m = metricas(y_test_real, y_pred_real)
+    print(f"LSTM afinado: RMSE={m['RMSE']:.2f} MAE={m['MAE']:.2f} MAPE={m['MAPE_%']:.2f}%\n")
 
-        y_pred_real = desescalar(predecir(modelo, dp.X_test), dp.escalador, dp.n_variables)
-        m = metricas(y_test_real, y_pred_real)
-        resumen.append({"modelo": tipo.upper(), **m})
-        print(f"{tipo.upper():12s} RMSE={m['RMSE']:.2f} MAE={m['MAE']:.2f} MAPE={m['MAPE_%']:.2f}%")
+    modelo.save(config.RUTA_MODELO)
+    guardar_historial(historial, config.DIR_RESULTADOS / "historial_lstm.csv")
 
-        if tipo == "lstm":
-            modelo.save(config.RUTA_MODELO)
-            y_pred_final = y_pred_real
-
-    # 5. Artefactos
-    df_resumen = pd.DataFrame(resumen)
-    df_resumen.to_csv(config.DIR_RESULTADOS / "metricas.csv", index=False)
+    # 6. Artefactos
+    resumen = pd.DataFrame([
+        {"modelo": "Baseline (persistencia)", **m_base},
+        {"modelo": "LSTM", **m_base_modelo},
+        {"modelo": "LSTM afinado", **m},
+    ])
+    resumen = resumen[["modelo", "RMSE", "MAE", "MAPE_%"]]
+    resumen.to_csv(config.DIR_RESULTADOS / "metricas.csv", index=False)
     guardar_escalador(dp.escalador, config.RUTA_ESCALADOR)
     print(f"\nMétricas:  {config.DIR_RESULTADOS / 'metricas.csv'}")
     print(f"Modelo:    {config.RUTA_MODELO}")
     print(f"Escalador: {config.RUTA_ESCALADOR}")
 
-    # 6. Figuras
-    graficar_curvas(historiales["lstm"], config.DIR_FIGURAS / "01_curvas_entrenamiento.png")
+    # 7. Figuras
+    graficar_curvas(historial, config.DIR_FIGURAS / "01_curvas_entrenamiento.png")
 
     df_comp = pd.DataFrame({
         "fecha": dp.meta_test["fecha"].reset_index(drop=True),
         "real": y_test_real,
-        "pred": y_pred_final,
+        "pred": y_pred_real,
     })
     df_diario = df_comp.groupby("fecha")[["real", "pred"]].sum().reset_index()
     graficar_predicciones(
         df_diario["fecha"], df_diario["real"], df_diario["pred"],
         config.DIR_FIGURAS / "02_prediccion_vs_real.png",
     )
-    graficar_comparacion(df_resumen, config.DIR_FIGURAS / "03_comparacion_modelos.png")
+    graficar_comparacion(resumen, config.DIR_FIGURAS / "03_comparacion_modelos.png")
 
     producto_top = df_comp.assign(producto=dp.meta_test["product_id"].to_numpy()) \
         .groupby("producto")["real"].sum().idxmax()
@@ -106,7 +115,7 @@ def main() -> None:
 
     print(f"Figuras:  {config.DIR_FIGURAS}")
     print("\nResumen final:")
-    print(df_resumen.sort_values("RMSE").to_string(index=False))
+    print(resumen.sort_values("RMSE").to_string(index=False))
 
 
 if __name__ == "__main__":

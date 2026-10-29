@@ -19,10 +19,10 @@ modelos LSTM y las funciones de predicción listas para despliegue.
 | `src/fase1/analisis_exploratorio.py` | Funciones del análisis exploratorio (EDA). |
 | `src/fase1/feature_engineering.py` | Crea las variables de ingeniería de características. |
 | `src/fase1/generar_reporte.py` | Construye el reporte (DOCX/PDF) y la presentación (PPTX/PDF). |
-| `src/fase2/` | Modelos predictivos (RNN/LSTM). |
+| `src/fase2/` | Modelo predictivo (LSTM, red neuronal recurrente). |
 | `src/fase2/config.py` | Rutas e hiperparámetros. |
 | `src/fase2/datos.py` | Carga, escalado y secuencias temporales. |
-| `src/fase2/modelos.py` | Constructores RNN / LSTM / LSTM apilada. |
+| `src/fase2/modelos.py` | Constructor del modelo LSTM (RNN). |
 | `src/fase2/entrenamiento.py` | Entrenamiento con EarlyStopping y finetuning. |
 | `src/fase2/evaluacion.py` | Métricas (RMSE/MAE/MAPE) y figuras. |
 | `src/fase2/ejecutar.py` | Pipeline completo de modelos (CLI). |
@@ -39,8 +39,11 @@ modelos LSTM y las funciones de predicción listas para despliegue.
 | `modelos/fase2/` | Modelo LSTM final guardado (.keras). |
 | `figuras/` | Figuras del EDA de la Fase 1. |
 | `reporte/` | Reporte profesional en DOCX y PDF. |
-| `presentacion/` | Presentación en PPTX y PDF. |
+| `presentacion/` | Presentaciones en PPTX y PDF (Tarea 01 + final de 3 fases). |
+| `presentacion/presentacion_tarea01.pptx` | Presentación de avance (Tarea 01, 5 min). |
+| `presentacion/presentacion_final.pptx` | Presentación final de resultados (3 fases, 10 min). |
 | `presentacion/guia_presentacion.md` | Guion cronometrado (5 min) + preguntas frecuentes y checklist. |
+| `presentacion/guia_presentacion_final.md` | Guion cronometrado (10 min) + preguntas frecuentes y checklist. |
 
 ## Dataset
 
@@ -80,7 +83,7 @@ python -m venv .venv
 ### Modelos predictivos
 
 ```bash
-# Entrenar modelos (RNN, LSTM, LSTM apilada), hacer finetuning,
+# Entrenar el modelo LSTM (RNN), hacer finetuning,
 # evaluar con RMSE/MAE/MAPE y guardar métricas, figuras y modelo
 .venv/bin/python -m src.fase2.ejecutar
 ```
