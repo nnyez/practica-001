@@ -120,8 +120,8 @@ def construir() -> Path:
     _vineta(doc, "Fin de semana vende un 55.6 % más que entre semana.")
     _vineta(doc, "Feriados venden un 40.1 % más (3 feriados en la ventana: 1 ene, 28 feb, 1 mar).")
     _vineta(doc, "Alimentos concentra el 49.6 % de las ventas; Bebidas y Snacks son los más rotativos por producto.")
-    _figura(doc, "07_fin_de_semana.png", ancho=4.0)
-    _figura(doc, "08_feriados.png", ancho=4.0)
+    _figura(doc, "fase1/07_fin_de_semana.png", ancho=4.0)
+    _figura(doc, "fase1/08_feriados.png", ancho=4.0)
 
     # --- 6. Resultados del modelo ---
     _titulo(doc, "6. Resultados del modelo")
@@ -134,7 +134,7 @@ def construir() -> Path:
     )
     _tabla(doc, df_res, tamano=9)
     _parrafo(doc, "El modelo reduce el error un 45 %.", negrita=True)
-    _figura(doc, "forecast_futuro.png", ancho=5.0)
+    _figura(doc, "reporte/forecast_futuro.png", ancho=5.0)
     _parrafo(doc, "Ventas reales (línea sólida) y predicciones del modelo (línea discontinua) que se extienden "
                   "más allá de los valores reales. La línea vertical marca el último dato real.", cursiva=True, tamano=8.5)
 
@@ -144,7 +144,7 @@ def construir() -> Path:
     _vineta(doc, "Error por producto y día: 16 unidades (modelo) vs 29 (método actual).")
     _vineta(doc, "En la tienda: unas 130 unidades diarias menos de error en el pedido.")
     _vineta(doc, "Beneficio: menos quiebres en fin de semana y feriados, menos capital inmovilizado entre semana.")
-    _figura(doc, "impacto_unidades.png", ancho=4.0)
+    _figura(doc, "reporte/impacto_unidades.png", ancho=4.0)
     _parrafo(doc, "Pedido: aprobar un piloto de 4 a 6 semanas con datos reales y compartir el histórico de ventas.",
              negrita=True)
     _parrafo(doc, "Nota: resultados sobre 60 días sintéticos. El enfoque está validado; falta calibrarlo con datos reales. "

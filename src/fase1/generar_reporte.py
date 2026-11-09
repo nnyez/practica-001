@@ -157,19 +157,19 @@ def construir_docx(ventas, inventario, features) -> Path:
     _titulo(doc, "2. Análisis exploratorio y visualizaciones")
     _parrafo(doc, "Categorías de productos más importantes. Las categorías se ordenan por ventas "
                   "totales del período; Alimentos concentra la mayor parte de las ventas.")
-    _figura(doc, "01_ventas_por_categoria.png")
+    _figura(doc, "fase1/01_ventas_por_categoria.png")
     _tabla_desde_df(doc, resumen_por_categoria(features), "Resumen por categoría:")
     _tabla_desde_df(doc, resumen_por_producto(features), "Productos analizados:")
 
     _parrafo(doc, "Comportamiento de las compras a lo largo del tiempo, organizado semana a semana "
                   "durante los dos meses del período. Cada panel resume una semana y permite observar "
                   "los cambios día a día y el patrón recurrente de fin de semana.")
-    _figura(doc, "03_evolucion_diaria.png")
-    _figura(doc, "04_semana_a_semana.png")
-    _figura(doc, "05_heatmap_semana_dia.png")
+    _figura(doc, "fase1/03_evolucion_diaria.png")
+    _figura(doc, "fase1/04_semana_a_semana.png")
+    _figura(doc, "fase1/05_heatmap_semana_dia.png")
     _parrafo(doc, "Muestreo de categorías de productos para facilitar la visualización del "
                   "comportamiento conjunto a lo largo del tiempo.")
-    _figura(doc, "06_categorias_en_tiempo.png")
+    _figura(doc, "fase1/06_categorias_en_tiempo.png")
 
     # --- 3. Variables creadas ---
     _titulo(doc, "3. Variables creadas")
@@ -195,18 +195,18 @@ def construir_docx(ventas, inventario, features) -> Path:
 
     _parrafo(doc, "Efecto del fin de semana. El promedio diario de ventas es claramente mayor "
                   "los sábados y domingos, lo que confirma el patrón semanal de compras.")
-    _figura(doc, "07_fin_de_semana.png")
+    _figura(doc, "fase1/07_fin_de_semana.png")
     _tabla_desde_df(doc, comparar_fin_de_semana(features))
 
     _parrafo(doc, "Efecto de los feriados. Se comparan los días feriados con los días normales y se "
                   "señalan los feriados sobre la serie temporal.")
-    _figura(doc, "08_feriados.png")
+    _figura(doc, "fase1/08_feriados.png")
     _tabla_desde_df(doc, listar_feriados(features), "Feriados presentes en el período (Ecuador):")
     _tabla_desde_df(doc, comparar_feriados(features))
 
     _parrafo(doc, "Variables numéricas y relación stock–ventas:")
-    _figura(doc, "09_distribuciones.png")
-    _figura(doc, "10_stock_vs_ventas.png")
+    _figura(doc, "fase1/09_distribuciones.png")
+    _figura(doc, "fase1/10_stock_vs_ventas.png")
 
     # --- 4. Criterios y conclusiones ---
     _titulo(doc, "4. Criterios del análisis y conclusiones")

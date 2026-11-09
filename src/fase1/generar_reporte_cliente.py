@@ -32,7 +32,6 @@ from tensorflow.keras.models import load_model
 
 BASE = Path(__file__).resolve().parent.parent.parent
 FIG = BASE / "figuras"
-FIG2 = BASE / "figuras" / "fase2"
 REPORTE = BASE / "reporte"
 MODELOS = BASE / "modelos" / "fase2"
 
@@ -55,7 +54,7 @@ def cargar():
 def generar_forecast(n_futuro=14):
     """Genera figuras/forecast_futuro.png: real (histórico) + predicción que
     se extiende más allá de los valores reales."""
-    ruta = FIG / "forecast_futuro.png"
+    ruta = FIG / "reporte" / "forecast_futuro.png"
     if ruta.exists():
         return ruta
 
@@ -197,14 +196,13 @@ def _vineta(doc, texto):
     doc.add_paragraph(texto, style="List Bullet")
 
 
-def _figura(doc, nombre, ancho=5.5, dirs=(FIG, FIG2)):
-    for d in dirs:
-        ruta = d / nombre
-        if ruta.exists():
-            doc.add_picture(str(ruta), width=Inches(ancho))
-            doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
-            return
-    _parrafo(doc, f"[Falta la figura {nombre}]")
+def _figura(doc, nombre, ancho=5.5):
+    ruta = FIG / nombre
+    if ruta.exists():
+        doc.add_picture(str(ruta), width=Inches(ancho))
+        doc.paragraphs[-1].alignment = WD_ALIGN_PARAGRAPH.CENTER
+    else:
+        _parrafo(doc, f"[Falta la figura {nombre}]")
 
 
 def _tabla(doc, df, titulo=None, tamano=9):
@@ -273,7 +271,7 @@ def construir(ventas, inventario, features) -> Path:
     _vineta(doc, "Un solo modelo aprende los 10 productos (identifica cuál por su código).")
     _vineta(doc, "Usa las variables que importan en este negocio: fin de semana, feriados y memoria de ventas recientes.")
     _vineta(doc, "Se entrega listo para integrar: recibe un producto (o un lote) y una fecha, y devuelve la predicción.")
-    _figura(doc, "ventana_7dias.png", ancho=5.5)
+    _figura(doc, "reporte/ventana_7dias.png", ancho=5.5)
 
     # --- 4. Los datos ---
     _titulo(doc, "4. Los datos")
@@ -306,8 +304,8 @@ def construir(ventas, inventario, features) -> Path:
         columns=["Categoría", "Ventas totales", "Participación", "Prom. diario", "Productos"],
     )
     _tabla(doc, df_cat, tamano=8)
-    _figura(doc, "01_ventas_por_categoria.png", ancho=5.5)
-    _figura(doc, "11_tres_categorias_por_semana.png", ancho=5.5)
+    _figura(doc, "fase1/01_ventas_por_categoria.png", ancho=5.5)
+    _figura(doc, "fase1/11_tres_categorias_por_semana.png", ancho=5.5)
 
     # --- 5. Lo que encontramos ---
     _titulo(doc, "5. Lo que encontramos en los datos")
@@ -317,8 +315,8 @@ def construir(ventas, inventario, features) -> Path:
     _vineta(doc, "Feriados venden un 40.1 % más (2.077,3 vs 1.482,5). Feriados usados: 1 ene, 28 feb y 1 mar (Ecuador).")
     _vineta(doc, "1 de enero (sábado + Año Nuevo) fue el pico más alto del período: 2.753 unidades.")
     _vineta(doc, "Alimentos concentra el 49.6 % de las ventas, pero Bebidas y Snacks son los más rotativos por producto (212 y 199 unidades/día).")
-    _figura(doc, "07_fin_de_semana.png", ancho=5.5)
-    _figura(doc, "08_feriados.png", ancho=5.5)
+    _figura(doc, "fase1/07_fin_de_semana.png", ancho=5.5)
+    _figura(doc, "fase1/08_feriados.png", ancho=5.5)
 
     # --- 6. Las variables que creamos ---
     _titulo(doc, "6. Las variables que creamos")
@@ -360,7 +358,7 @@ def construir(ventas, inventario, features) -> Path:
     _vineta(doc, "El baseline de persistencia es la referencia obligatoria del forecasting.")
     _vineta(doc, "Test: 150 predicciones (15 días × 10 productos).")
     _figura(doc, "fase2/02_prediccion_vs_real.png", ancho=5.5)
-    _figura(doc, "forecast_futuro.png", ancho=5.5)
+    _figura(doc, "reporte/forecast_futuro.png", ancho=5.5)
     _parrafo(doc, "La gráfica muestra las ventas reales (línea sólida) y las predicciones del modelo (línea "
                   "discontinua). Las predicciones se extienden más allá de los valores reales, mostrando la "
                   "proyección del modelo para los próximos días.", cursiva=True, tamano=9)
@@ -372,7 +370,7 @@ def construir(ventas, inventario, features) -> Path:
     _vineta(doc, "Error por producto y día: 16 unidades (modelo) vs 29 (método actual).")
     _vineta(doc, "En la tienda completa: unas 130 unidades diarias menos de error en el pedido.")
     _vineta(doc, "Beneficio esperado: menos quiebres de stock en fin de semana y feriados, y menos capital inmovilizado entre semana.")
-    _figura(doc, "impacto_unidades.png", ancho=5.5)
+    _figura(doc, "reporte/impacto_unidades.png", ancho=5.5)
     _parrafo(doc, "Nota: la traducción a dinero es ilustrativa (supuesto de precio promedio por unidad). "
                   "Se valida con los precios reales del cliente.", cursiva=True, tamano=9)
 

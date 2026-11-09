@@ -26,7 +26,6 @@ from pptx.dml.color import RGBColor
 
 BASE = Path(__file__).resolve().parent.parent.parent
 FIG = BASE / "figuras"
-FIG2 = BASE / "figuras" / "fase2"
 PRESENTACION = BASE / "presentacion"
 
 URL_KAGGLE = "https://www.kaggle.com/datasets/anirudhchauhan/retail-store-inventory-forecasting-dataset"
@@ -100,14 +99,12 @@ def _figura(prs, titulo, figura, comentario=None, max_w=8.2, max_h=4.9):
     tb.text_frame.paragraphs[0].runs[0].font.size = PPt(26)
     tb.text_frame.paragraphs[0].runs[0].font.bold = True
     tb.text_frame.paragraphs[0].runs[0].font.color.rgb = RGBColor(0x1F, 0x38, 0x64)
-    for dir_ in (FIG, FIG2):
-        ruta = dir_ / figura
-        if ruta.exists():
-            w, h = _ajustar(ruta, max_w, max_h)
-            x = (10.0 - w) / 2.0
-            slide.shapes.add_picture(str(ruta), PInches(x), PInches(1.2),
-                                    width=PInches(w), height=PInches(h))
-            break
+    ruta = FIG / figura
+    if ruta.exists():
+        w, h = _ajustar(ruta, max_w, max_h)
+        x = (10.0 - w) / 2.0
+        slide.shapes.add_picture(str(ruta), PInches(x), PInches(1.2),
+                                width=PInches(w), height=PInches(h))
     if comentario:
         cb = slide.shapes.add_textbox(PInches(0.7), PInches(6.2), PInches(8.6), PInches(0.9))
         cb.text_frame.text = comentario
@@ -167,14 +164,12 @@ def _tabla_y_figura(prs, titulo, df, figura, comentario=None, tamano=13):
             t.cell(i, j).text = "" if pd.isna(fila[col]) else str(fila[col])
             t.cell(i, j).text_frame.paragraphs[0].runs[0].font.size = PPt(tamano)
     # figura a la derecha, ajustada al panel disponible
-    for dir_ in (FIG, FIG2):
-        ruta = dir_ / figura
-        if ruta.exists():
-            w, h = _ajustar(ruta, 4.4, 4.6)
-            x = 5.0 + (4.4 - w) / 2.0
-            slide.shapes.add_picture(str(ruta), PInches(x), PInches(1.2),
-                                    width=PInches(w), height=PInches(h))
-            break
+    ruta = FIG / figura
+    if ruta.exists():
+        w, h = _ajustar(ruta, 4.4, 4.6)
+        x = 5.0 + (4.4 - w) / 2.0
+        slide.shapes.add_picture(str(ruta), PInches(x), PInches(1.2),
+                                width=PInches(w), height=PInches(h))
     if comentario:
         cb = slide.shapes.add_textbox(PInches(0.6), PInches(6.0), PInches(8.8), PInches(0.7))
         cb.text_frame.text = comentario
@@ -189,7 +184,7 @@ def _tabla_y_figura(prs, titulo, df, figura, comentario=None, tamano=13):
 # --------------------------------------------------------------------------- #
 def _figura_ventana() -> Path:
     """Diagrama de la ventana de 7 días que consume el modelo."""
-    ruta = FIG / "ventana_7dias.png"
+    ruta = FIG / "reporte" / "ventana_7dias.png"
     if ruta.exists():
         return ruta
     fig, ax = plt.subplots(figsize=(10, 4.5))
@@ -222,7 +217,7 @@ def _figura_ventana() -> Path:
 
 def _figura_impacto() -> Path:
     """Comparación de error por producto y día: baseline vs LSTM."""
-    ruta = FIG / "impacto_unidades.png"
+    ruta = FIG / "reporte" / "impacto_unidades.png"
     if ruta.exists():
         return ruta
     fig, ax = plt.subplots(figsize=(8, 4.5))
@@ -277,7 +272,7 @@ def construir() -> Path:
     ])
 
     # 4. Fase 1 - Hallazgos
-    _figura(prs, "FASE 1 · Qué encontramos", "11_tres_categorias_por_semana.png",
+    _figura(prs, "FASE 1 · Qué encontramos", "fase1/11_tres_categorias_por_semana.png",
             "El patrón se repite cada semana: sábado pico (2.183) y miércoles valle (1.117).")
 
     # 5. Fase 1 - Variables y secuencias
@@ -290,7 +285,7 @@ def construir() -> Path:
     ], comentario="Salida: datos/ventas_features.csv (600 filas × 22 columnas).")
 
     # 6. Fase 2 - Modelo
-    _figura(prs, "FASE 2 · Cómo modelamos", "ventana_7dias.png",
+    _figura(prs, "FASE 2 · Cómo modelamos", "reporte/ventana_7dias.png",
             "Un solo modelo: red neuronal recurrente tipo LSTM (50 unidades + densa), como el cuaderno de referencia. Mirá los últimos 7 días y estima la venta del día siguiente.")
 
     # 7. Fase 2 - Resultados
@@ -301,7 +296,7 @@ def construir() -> Path:
         "MAPE (%)": [19.54, 10.88],
     })
     _tabla_y_figura(prs, "FASE 2 · Resultados (conjunto de prueba)",
-                    df_res, "impacto_unidades.png",
+                    df_res, "reporte/impacto_unidades.png",
                     comentario="El modelo reduce el error un 45 % frente al método actual (RMSE). Un solo modelo RNN (LSTM), como el cuaderno de referencia.")
 
     # 8. Fase 2 - Confiabilidad
@@ -313,7 +308,7 @@ def construir() -> Path:
             "predecir_venta(producto_id, fecha) -> float   |   predecir_batch(productos, fecha) -> list")
 
     # 10. Impacto de negocio
-    _figura(prs, "Impacto de negocio", "impacto_unidades.png",
+    _figura(prs, "Impacto de negocio", "reporte/impacto_unidades.png",
             "MAPE 10.9 % vs 19.5 %: ~130 unidades/día menos de error en el pedido (10 productos).")
 
     # 11. Roadmap y qué pedimos
@@ -325,7 +320,7 @@ def construir() -> Path:
     ], comentario="Honestidad: resultados sobre 60 días sintéticos y 150 predicciones de test. El enfoque está validado; falta calibrar con datos reales.")
 
     # Apéndice (respaldo para preguntas)
-    _figura(prs, "APÉNDICE · Ventas semana a semana", "04_semana_a_semana.png",
+    _figura(prs, "APÉNDICE · Ventas semana a semana", "fase1/04_semana_a_semana.png",
             "9 paneles, uno por semana. El patrón se repite cada semana (sábado pico, miércoles valle).")
     _figura(prs, "APÉNDICE · Convergencia", "fase2/01_curvas_entrenamiento.png",
             "Pérdida de entrenamiento y validación por época (EarlyStopping, paciencia 12).")

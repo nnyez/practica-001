@@ -14,7 +14,7 @@ Uso rápido:
     from analisis_exploratorio import cargar_datos, generar_todas_las_figuras
     ventas, inventario = cargar_datos("datos")
     df = unir_inventario(ventas, inventario)
-    generar_todas_las_figuras(df, "figuras")
+    generar_todas_las_figuras(df, "figuras/fase1")
 """
 
 from __future__ import annotations
@@ -604,7 +604,7 @@ def graficar_tres_categorias_por_semana(df, categorias=None, ruta=None, top_n: i
 # --------------------------------------------------------------------------- #
 # Orquestador
 # --------------------------------------------------------------------------- #
-def generar_todas_las_figuras(df: pd.DataFrame, dir_salida: str | Path = "figuras",
+def generar_todas_las_figuras(df: pd.DataFrame, dir_salida: str | Path = "figuras/fase1",
                               pais: str = PAIS_FERIADOS) -> list[Path]:
     """Genera y guarda todas las figuras del análisis exploratorio."""
     configurar_estilo()
@@ -651,7 +651,7 @@ def main() -> None:
     print("\n=== Feriados vs no feriados ===")
     print(comparar_feriados(df).to_string(index=False))
 
-    generar_todas_las_figuras(df, base / "figuras")
+    generar_todas_las_figuras(df, base / "figuras" / "fase1")
 
 
 if __name__ == "__main__":

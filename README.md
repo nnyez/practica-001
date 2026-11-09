@@ -1,57 +1,73 @@
 # Tarea 01 — Ventas retail: datos, modelos y predicción
 
 Proyecto de series de tiempo sobre las ventas diarias de una tienda de barrio.
-Incluye el análisis y la ingeniería de características, el entrenamiento de
-modelos LSTM y las funciones de predicción listas para despliegue.
+Incluye el análisis y la ingeniería de características, el entrenamiento de un
+modelo LSTM (red neuronal recurrente) y las funciones de predicción listas para
+despliegue, con una interfaz web sencilla.
 
-## Contenido
+## Estructura
+
+```
+docs/                      instrucciones, requisitos y guías
+datos/                     datasets generados (inventory, sales_history, ventas_features)
+referencia/                material auxiliar (dataset original, notebooks modificados, Data.ods)
+src/fase1/                 datos, EDA, feature engineering y generación de reportes
+src/fase2/                 modelo LSTM (entrenamiento, evaluación, finetuning)
+src/fase3/                 funciones de predicción (predecir_venta, predecir_batch)
+app/                       interfaz web (HTML) de la Fase 3
+notebooks/                 los 3 notebooks finales
+scripts/                   generadores de notebooks
+figuras/fase1/             figuras del EDA
+figuras/fase2/             figuras de evaluación del modelo
+figuras/reporte/           figuras auxiliares de los reportes
+modelos/fase2/             modelo LSTM final (.keras) y escalador
+resultados/fase2/          métricas e historiales de entrenamiento
+reporte/                   reportes en DOCX/PDF
+presentacion/              presentaciones en PPTX/PDF y guiones
+```
+
+## Contenido principal
 
 | Ruta | Descripción |
 |---|---|
-| `datos/original-dataset.csv` | Dataset base público de Kaggle (fuente). |
+| `docs/initial-instructions.md` | Enunciado de las 3 fases. |
+| `docs/tarea01-requisitos.md` | Rúbrica de la Tarea 01. |
+| `docs/GUIA_FASE3.md` | Guía de la Fase 3: funciones y despliegue. |
 | `datos/inventory.csv` | Catálogo de productos (dataset construido). |
 | `datos/sales_history.csv` | Historial de ventas (dataset construido). |
 | `datos/ventas_features.csv` | Ventas con las variables creadas. |
-| `notebooks/tarea01_ingenieria_caracteristicas.ipynb` | EDA, variables y secuencias. |
+| `referencia/original-dataset.csv` | Dataset base público de Kaggle (fuente). |
+| `notebooks/fase1_ingenieria_caracteristicas.ipynb` | EDA, variables y secuencias. |
 | `notebooks/fase2_modelos.ipynb` | Modelo LSTM, finetuning y evaluación. |
 | `notebooks/fase3_prediccion.ipynb` | Funciones de predicción y despliegue. |
 | `src/fase1/generar_dataset.py` | Genera el dataset sintético con patrones realistas. |
 | `src/fase1/analisis_exploratorio.py` | Funciones del análisis exploratorio (EDA). |
 | `src/fase1/feature_engineering.py` | Crea las variables de ingeniería de características. |
-| `src/fase1/generar_reporte.py` | Construye el reporte (DOCX/PDF) y la presentación (PPTX/PDF). |
-| `src/fase2/` | Modelo predictivo (LSTM, red neuronal recurrente). |
+| `src/fase1/generar_reporte.py` | Reporte académico (DOCX/PDF) y presentación de avance. |
+| `src/fase1/generar_reporte_cliente.py` | Reporte completo para el cliente (DOCX/PDF). |
+| `src/fase1/generar_reporte_cliente_corto.py` | Reporte corto para el cliente (DOCX/PDF). |
+| `src/fase1/generar_presentacion_final.py` | Presentación final de las 3 fases (PPTX/PDF). |
 | `src/fase2/config.py` | Rutas e hiperparámetros. |
 | `src/fase2/datos.py` | Carga, escalado y secuencias temporales. |
 | `src/fase2/modelos.py` | Constructor del modelo LSTM (RNN). |
 | `src/fase2/entrenamiento.py` | Entrenamiento con EarlyStopping y finetuning. |
 | `src/fase2/evaluacion.py` | Métricas (RMSE/MAE/MAPE) y figuras. |
 | `src/fase2/ejecutar.py` | Pipeline completo de modelos (CLI). |
-| `src/fase3/` | Función de predicción y despliegue. |
 | `src/fase3/config.py` | Rutas y constantes. |
 | `src/fase3/modelo.py` | Carga del modelo `.keras` y escalador. |
 | `src/fase3/entrada.py` | Construcción de la ventana de 7 días. |
 | `src/fase3/prediccion.py` | Funciones `predecir_venta` y `predecir_batch`. |
 | `src/fase3/ejecutar.py` | CLI de prueba. |
-| `app/` | Capa de despliegue: interfaz web (separada de la lógica). |
 | `app/app.py` | Servidor web con la interfaz HTML de predicción. |
 | `app/templates/index.html` | Plantilla HTML de la interfaz. |
 | `scripts/` | Generadores de notebooks (`build_notebook_fase2.py`, `build_notebook_fase3.py`). |
-| `figuras/fase2/` | Figuras de evaluación del modelo. |
-| `_referencia/` | Material auxiliar del usuario (análisis previo, hoja de cálculo). |
-| `resultados/fase2/` | Métricas e historiales de entrenamiento. |
-| `modelos/fase2/` | Modelo LSTM final guardado (.keras). |
-| `figuras/` | Figuras del EDA de la Fase 1. |
-| `reporte/` | Reporte profesional en DOCX y PDF (Tarea 01 + cliente). |
 | `reporte/reporte_tarea01.docx` | Reporte académico de la Tarea 01 (DOCX/PDF). |
 | `reporte/reporte_cliente.docx` | Reporte ejecutivo para el cliente (DOCX/PDF). |
-| `reporte/reporte_cliente_corto.docx` | Reporte corto para el cliente, primera impresión (DOCX/PDF, 3 páginas, más gráficas). |
-| `src/fase1/generar_reporte_cliente.py` | Genera el reporte para el cliente (DOCX/PDF). |
-| `src/fase1/generar_reporte_cliente_corto.py` | Genera el reporte corto para el cliente (DOCX/PDF). |
-| `presentacion/` | Presentaciones en PPTX y PDF (Tarea 01 + final de 3 fases). |
+| `reporte/reporte_cliente_corto.docx` | Reporte corto para el cliente (DOCX/PDF). |
 | `presentacion/presentacion_tarea01.pptx` | Presentación de avance (Tarea 01, 5 min). |
 | `presentacion/presentacion_final.pptx` | Presentación final de resultados (3 fases, 10 min). |
-| `presentacion/guia_presentacion.md` | Guion cronometrado (5 min) + preguntas frecuentes y checklist. |
-| `presentacion/guia_presentacion_final.md` | Guion cronometrado (10 min) + preguntas frecuentes y checklist. |
+| `presentacion/guia_presentacion.md` | Guion cronometrado (5 min) + preguntas frecuentes. |
+| `presentacion/guia_presentacion_final.md` | Guion cronometrado (10 min) + preguntas frecuentes. |
 
 ## Dataset
 
@@ -78,14 +94,21 @@ python -m venv .venv
 # 1) Generar el dataset sintético
 .venv/bin/python src/fase1/generar_dataset.py
 
-# 2) Generar las figuras del EDA y ver el perfil de los datos
+# 2) Generar las figuras del EDA (figuras/fase1/) y ver el perfil de los datos
 .venv/bin/python src/fase1/analisis_exploratorio.py
 
 # 3) Crear las variables de ingeniería de características
 .venv/bin/python src/fase1/feature_engineering.py
 
-# 4) Generar el reporte (PDF) y la presentación (PDF/PPTX)
+# 4) Generar el reporte académico y la presentación de avance
 .venv/bin/python src/fase1/generar_reporte.py
+
+# 5) Generar los reportes para el cliente
+.venv/bin/python src/fase1/generar_reporte_cliente.py
+.venv/bin/python src/fase1/generar_reporte_cliente_corto.py
+
+# 6) Generar la presentación final de las 3 fases
+.venv/bin/python src/fase1/generar_presentacion_final.py
 ```
 
 ### Modelos predictivos
@@ -118,3 +141,6 @@ La interfaz web expone las dos funciones de la Fase 3:
 | `/` | GET | — | Página con los dos formularios |
 | `/predecir` | POST | `producto_id`, `fecha` | Predicción individual |
 | `/predecir_lote` | POST | `productos`, `fecha` | Tabla de predicciones |
+
+> El comando de la interfaz se ejecuta **desde la raíz del proyecto** para que
+> los paquetes `app` y `src` sean importables.
