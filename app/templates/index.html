@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Predicción de demanda — Tienda de barrio</title>
+<style>
+  :root {
+    --azul: #1f3864;
+    --verde: #2e7d32;
+    --rojo: #c62828;
+    --gris: #5a5a5a;
+    --borde: #d8dee9;
+    --fondo: #f7f9fc;
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background: var(--fondo);
+    color: #222;
+    margin: 0;
+    padding: 24px 16px;
+  }
+  .contenedor { max-width: 940px; margin: 0 auto; }
+  h1 { color: var(--azul); font-size: 26px; margin: 0 0 4px; }
+  .subtitulo { color: var(--gris); margin: 0 0 24px; font-size: 14px; }
+  .tarjeta {
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 18px;
+  }
+  .tarjeta h2 { color: var(--azul); font-size: 18px; margin: 0 0 14px; }
+  label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; color: #333; }
+  input[type=text], input[type=date], select, textarea {
+    width: 100%;
+    padding: 9px 10px;
+    border: 1px solid var(--borde);
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+    background: #fff;
+  }
+  textarea { min-height: 92px; resize: vertical; font-family: ui-monospace, Consolas, monospace; }
+  .fila { display: flex; gap: 14px; flex-wrap: wrap; align-items: flex-end; }
+  .campo { flex: 1 1 180px; }
+  .campo.ancho { flex: 3 1 260px; }
+  button {
+    background: var(--azul);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:hover { background: #16294a; }
+  button.secundario { background: var(--verde); }
+  button.secundario:hover { background: #246029; }
+  .resultado {
+    border-left: 5px solid var(--verde);
+    background: #f1f8f2;
+    padding: 14px 16px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+  }
+  .resultado.error { border-left-color: var(--rojo); background: #fdf2f2; }
+  .resultado .cifra { font-size: 30px; font-weight: 700; color: var(--verde); }
+  .resultado.error .cifra { font-size: 16px; font-weight: 600; color: var(--rojo); }
+  .resultado .detalle { font-size: 13px; color: var(--gris); margin-top: 4px; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--borde); }
+  th { background: #eef2f8; color: var(--azul); font-size: 13px; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .pie { color: var(--gris); font-size: 12px; text-align: center; margin-top: 18px; line-height: 1.6; }
+  .aviso { color: #8a6d1f; background: #fdf8e3; border: 1px solid #f0e2ae; padding: 9px 12px; border-radius: 5px; font-size: 13px; margin-bottom: 16px; }
+</style>
+</head>
+<body>
+<div class="contenedor">
+
+  <h1>Predicción de demanda — Tienda de barrio</h1>
+  <p class="subtitulo">Modelo de red neuronal recurrente (LSTM) &middot; Fase 3: función de predicción y despliegue</p>
+
+  {{AVISO}}
+
+  <!-- ============ Predicción individual ============ -->
+  <div class="tarjeta">
+    <h2>1. Predicción individual</h2>
+    <form method="post" action="/predecir">
+      <div class="fila">
+        <div class="campo ancho">
+          <label for="producto_id">Producto</label>
+          <select id="producto_id" name="producto_id">{{PRODUCTOS}}</select>
+        </div>
+        <div class="campo">
+          <label for="fecha">Fecha a predecir</label>
+          <input type="date" id="fecha" name="fecha" value="{{FECHA}}" min="{{FECHA_MIN}}" max="{{FECHA_MAX}}" required>
+        </div>
+        <div class="campo" style="flex:0 0 auto;">
+          <button type="submit">Predecir</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- ============ Predicción en lote ============ -->
+  <div class="tarjeta">
+    <h2>2. Predicción en lote (varios productos, misma fecha)</h2>
+    <form method="post" action="/predecir_lote">
+      <div class="fila">
+        <div class="campo ancho">
+          <label for="productos">Productos (un product_id por línea, separados por coma o salto de línea)</label>
+          <textarea id="productos" name="productos" placeholder="P0001&#10;P0005&#10;P0008, P0009"></textarea>
+        </div>
+        <div class="campo">
+          <label for="fecha_lote">Fecha a predecir</label>
+          <input type="date" id="fecha_lote" name="fecha" value="{{FECHA}}" min="{{FECHA_MIN}}" max="{{FECHA_MAX}}" required>
+        </div>
+        <div class="campo" style="flex:0 0 auto;">
+          <button type="submit" class="secundario">Predecir lote</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <!-- ============ Resultado ============ -->
+  <div class="tarjeta">
+    <h2>Resultado</h2>
+    {{RESULTADO}}
+  </div>
+
+  <p class="pie">
+    El modelo usa los últimos 7 días de historial de cada producto y el calendario (fin de semana y feriados).<br>
+    Requiere como mínimo 7 días de historial previo a la fecha objetivo.
+  </p>
+
+</div>
+</body>
+</html>

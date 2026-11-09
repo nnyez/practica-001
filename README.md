@@ -32,13 +32,21 @@ modelos LSTM y las funciones de predicción listas para despliegue.
 | `src/fase3/entrada.py` | Construcción de la ventana de 7 días. |
 | `src/fase3/prediccion.py` | Funciones `predecir_venta` y `predecir_batch`. |
 | `src/fase3/ejecutar.py` | CLI de prueba. |
+| `app/` | Capa de despliegue: interfaz web (separada de la lógica). |
+| `app/app.py` | Servidor web con la interfaz HTML de predicción. |
+| `app/templates/index.html` | Plantilla HTML de la interfaz. |
 | `scripts/` | Generadores de notebooks (`build_notebook_fase2.py`, `build_notebook_fase3.py`). |
 | `figuras/fase2/` | Figuras de evaluación del modelo. |
 | `_referencia/` | Material auxiliar del usuario (análisis previo, hoja de cálculo). |
 | `resultados/fase2/` | Métricas e historiales de entrenamiento. |
 | `modelos/fase2/` | Modelo LSTM final guardado (.keras). |
 | `figuras/` | Figuras del EDA de la Fase 1. |
-| `reporte/` | Reporte profesional en DOCX y PDF. |
+| `reporte/` | Reporte profesional en DOCX y PDF (Tarea 01 + cliente). |
+| `reporte/reporte_tarea01.docx` | Reporte académico de la Tarea 01 (DOCX/PDF). |
+| `reporte/reporte_cliente.docx` | Reporte ejecutivo para el cliente (DOCX/PDF). |
+| `reporte/reporte_cliente_corto.docx` | Reporte corto para el cliente, primera impresión (DOCX/PDF, 3 páginas, más gráficas). |
+| `src/fase1/generar_reporte_cliente.py` | Genera el reporte para el cliente (DOCX/PDF). |
+| `src/fase1/generar_reporte_cliente_corto.py` | Genera el reporte corto para el cliente (DOCX/PDF). |
 | `presentacion/` | Presentaciones en PPTX y PDF (Tarea 01 + final de 3 fases). |
 | `presentacion/presentacion_tarea01.pptx` | Presentación de avance (Tarea 01, 5 min). |
 | `presentacion/presentacion_final.pptx` | Presentación final de resultados (3 fases, 10 min). |
@@ -95,6 +103,18 @@ python -m venv .venv
 ### Predicción y despliegue
 
 ```bash
-# Probar funciones de predicción individual y en lote
+# Probar funciones de predicción individual y en lote (CLI)
 .venv/bin/python -m src.fase3.ejecutar
+
+# Levantar la interfaz web de predicción (HTML)
+.venv/bin/python -m app.app
+# -> abrir http://127.0.0.1:8000 en el navegador
 ```
+
+La interfaz web expone las dos funciones de la Fase 3:
+
+| Ruta | Método | Entrada | Salida |
+|---|---|---|---|
+| `/` | GET | — | Página con los dos formularios |
+| `/predecir` | POST | `producto_id`, `fecha` | Predicción individual |
+| `/predecir_lote` | POST | `productos`, `fecha` | Tabla de predicciones |
